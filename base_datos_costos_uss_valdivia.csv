@@ -1,42 +1,365 @@
-Categoría,Código,Descripción,Precio Clínica,Lab,Precio Total,Proveedor
-Acciones preventivas,AP002,"Instrucción de higiene oral, técnica de cepillado",12700,0,12700,USS Valdivia
-Cirugía bucal,CB001,Exodoncia simple,11900,0,11900,USS Valdivia
-Cirugía bucal,CB002,Exodoncia a colgajo o semi-incluida,29500,0,29500,USS Valdivia
-Cirugía bucal,CB003,Exodoncia diente incluido,41200,0,41200,USS Valdivia
-Cirugía bucal,CB005,Exodoncia 4 terceros molares incluidos,152800,0,152800,USS Valdivia
-Cirugía bucal,CB012,Cirugía apical y pararradicular (Incisivo),66900,0,66900,USS Valdivia
-Cirugía de Implantes,CI001,Implante oseointegrado,58900,0,58900,USS Valdivia
-Cirugía de Implantes,CI002,Reconstrucción rebordes (homo/heteroinjertos),176300,0,176300,USS Valdivia
-Cirugía de Implantes,CI003,Elevación seno maxilar,235000,0,235000,USS Valdivia
-Cirugía de Implantes,CI005,Conexión de implantes,29500,0,29500,USS Valdivia
-Cirugía de Implantes,CI006,Regeneración tisular guiada,88200,0,88200,USS Valdivia
-Cirugía de Implantes,CI008,Guía quirurgica impresa exacta,10500,0,10500,USS Valdivia
-Pabellón,PB006,Toma de muestra PRF/I-PRF,11900,0,11900,USS Valdivia
-Pabellón,PB007,Derecho pabellón Baja Complejidad,53500,0,53500,USS Valdivia
-Pabellón,PB008,Derecho pabellón Mediana Complejidad,83100,0,83100,USS Valdivia
-Pabellón,PB009,Derecho pabellón Alta Complejidad,118600,0,118600,USS Valdivia
-Habilitación s/ Implante,RI001,Pilar muñón sobre implantes,27000,70000,97000,USS Valdivia
-Habilitación s/ Implante,RI002,Corona temporal sobre implantes,12000,11000,23000,USS Valdivia
-Habilitación s/ Implante,RI020,Corona Sobre implantes Atornillada/Cementada,35400,68200,103600,USS Valdivia
-Habilitación s/ Implante,RI021,Corona Sobre implantes Cementada (Disilicato),35400,68200,103600,USS Valdivia
-Habilitación s/ Implante,RI030,Prótesis Hibrida,82400,0,82400,USS Valdivia
-Radiología,RD001,Radiografía retroalveolar,2800,0,2800,USS Valdivia
-Radiología,RD002,Radiografía retroalveolar total,0,16600,16600,USS Valdivia
-Implantes,BIS,Implante IS-II Active (Narrow-Regular),0,0,54000,Neobiotech
-Implantes,IS3,Implante IS-III Active (Narrow-Regular),0,0,63000,Neobiotech
-Componentes,ISH,Cicatrizal Neobiotech,0,0,10000,Neobiotech
-Componentes,ISLA,Analogo de Implante Neobiotech,0,0,10000,Neobiotech
-Rehabilitación,ISAH,Pilar Recto Neobiotech,0,0,32400,Neobiotech
-Rehabilitación,ISMUA,Multi-Unit Recto Neobiotech,0,0,40500,Neobiotech
-Implantes,109.906,Implante Titamax GM 3.5X7,0,0,53922,Neodent
-Implantes,109.949,Implante Helix GM 4.3X10,0,0,70669,Neodent
-Implantes,140.949,Implante Helix GM Acqua 4.3X10,0,0,82021,Neodent
-Componentes,106.214,Cicatrizador GM Neodent,0,0,19308,Neodent
-Rehabilitación,115.238,Pilar GM Exact Neodent,0,0,36709,Neodent
-Rehabilitación,115.244,Mini Pilar Conico GM Neodent,0,0,34479,Neodent
-Xeno Injerto,1510,cerabone Granules 0.5 cc (0.5-1.0 mm),0,0,60450,Botiss (AllBiomed)
-Aloinjerto,30005,maxgraft Granules Cancellous 0.5 cc,0,0,93100,Botiss (AllBiomed)
-Membranas,681520,Jason membrane 15 x 20 mm,0,0,80910,Botiss (AllBiomed)
-Membranas,601520,collprotect membrane 15 x 20 mm,0,0,70500,Botiss (AllBiomed)
-Membranas,801520,permamem 15 x 20 mm,0,0,58900,Botiss (AllBiomed)
-Biomateriales,NBP4x025,Novabone
+﻿Categoría,Código,Descripción,Precio Clínica,Lab,Precio Total,Proveedor
+Membranas,681520,Jason membrane 15 x 20 mm,80910.0,0,80910.0,Botiss (AllBiomed)
+Membranas,682030,Jason membrane 20 x 30 mm,99510.0,0,99510.0,Botiss (AllBiomed)
+Membranas,683040,Jason membrane 30 x 40 mm,157377.0,0,157377.0,Botiss (AllBiomed)
+Membranas,601520,collprotect membrane 15 x 20 mm,70500.0,0,70500.0,Botiss (AllBiomed)
+Membranas,602030,collprotect membrane 20 x 30 mm,86010.0,0,86010.0,Botiss (AllBiomed)
+Membranas,603040,collprotect membrane 30 x 40 mm,134900.0,0,134900.0,Botiss (AllBiomed)
+Tejidos Blandos,701520,mucoderm 15 x 20 mm,104500.0,0,104500.0,Botiss (AllBiomed)
+Tejidos Blandos,702030,mucoderm 20 x 30 mm,142500.0,0,142500.0,Botiss (AllBiomed)
+Tejidos Blandos,703040,mucoderm 30 x 40 mm,216600.0,0,216600.0,Botiss (AllBiomed)
+Membranas,801520,permamem 15 x 20 mm,58900.0,0,58900.0,Botiss (AllBiomed)
+Membranas,802030,permamem 20 x 30 mm,82650.0,0,82650.0,Botiss (AllBiomed)
+Membranas,803040,permamem 30 x 40 mm,118750.0,0,118750.0,Botiss (AllBiomed)
+Esponjas/Conos,511112,collacone Alveo cone,83600.0,0,83600.0,Botiss (AllBiomed)
+Esponjas/Conos,512212,collafleece 2 x 2 cm,242250.0,0,242250.0,Botiss (AllBiomed)
+Xenoinjerto,1510,"cerabone Granules 0,5 cc (0,5-1,0 mm)",60450.0,0,60450.0,Botiss (AllBiomed)
+Xenoinjerto,1511,"cerabone Granules 1,0 cc (0,5-1,0 mm)",79980.0,0,79980.0,Botiss (AllBiomed)
+Xenoinjerto,1512,"cerabone Granules 2,0 cc (0,5-1,0 mm)",104500.0,0,104500.0,Botiss (AllBiomed)
+Xenoinjerto,1515,"cerabone Granules 5,0 cc (0,5-1,0 mm)",169100.0,0,169100.0,Botiss (AllBiomed)
+Xenoinjerto,1520,"cerabone Granules 0,5 cc (1,0-2,0 mm)",61100.0,0,61100.0,Botiss (AllBiomed)
+Xenoinjerto,1521,"cerabone Granules 1,0 cc (1,0-2,0 mm)",80840.0,0,80840.0,Botiss (AllBiomed)
+Xenoinjerto,1522,"cerabone Granules 2,0 cc (1,0-2,0 mm)",104500.0,0,104500.0,Botiss (AllBiomed)
+Xenoinjerto,1525,"cerabone Granules 5,0 cc (1,0-2,0 mm)",169100.0,0,169100.0,Botiss (AllBiomed)
+Xenoinjerto,1810,"cerabone plus 0,5 ml (0,5-1,0 mm)",73150.0,0,73150.0,Botiss (AllBiomed)
+Xenoinjerto,1811,"cerabone plus 1,0 ml (0,5-1,0 mm)",95000.0,0,95000.0,Botiss (AllBiomed)
+Aloplastico,20005,"maxresorb Granules 0,5 cc (0,5-1,0 mm)",43700.0,0,43700.0,Botiss (AllBiomed)
+Aloplastico,20010,"maxresorb Granules 1,0 cc (0,5-1,0 mm)",59375.0,0,59375.0,Botiss (AllBiomed)
+Aloplastico,20120,"maxresorb Granules 2,0 cc (0,8-1,5 mm)",85500.0,0,85500.0,Botiss (AllBiomed)
+Aloinjerto,30005,"maxgraft Granules Cancellous 0,5 cc (0,5-2,0 mm)",93100.0,0,93100.0,Botiss (AllBiomed)
+Aloinjerto,30010,"maxgraft Granules Cancellous 1,0 cc (0,5-2,0 mm)",134900.0,0,134900.0,Botiss (AllBiomed)
+Aloinjerto,30020,"maxgraft Granules Cancellous 2,0 cc (0,5-2,0 mm)",178600.0,0,178600.0,Botiss (AllBiomed)
+Aloinjerto,31005,"maxgraft cortico-cancellous Granules 0,5 cc (0,5-2,0 mm)",93100.0,0,93100.0,Botiss (AllBiomed)
+Aloinjerto,31010,"maxgraft cortico-cancellous Granules 1,0 cc (0,5-2,0 mm)",134900.0,0,134900.0,Botiss (AllBiomed)
+Aloinjerto,31020,"maxgraft cortico-cancellous Granules 2,0 cc (0,5-2,0 mm)",178600.0,0,178600.0,Botiss (AllBiomed)
+Aloinjerto,31040,"maxgraft cortico-cancellous Granules 4,0 cc (0,5-2,0 mm)",264100.0,0,264100.0,Botiss (AllBiomed)
+Aloinjerto,33160,"maxgraft bonering D6 mm/3,3 mm",451250.0,0,451250.0,Botiss (AllBiomed)
+Aloinjerto,33170,"maxgraft bonering D7 mm/3,3 mm",451250.0,0,451250.0,Botiss (AllBiomed)
+Aloinjerto,33174,"maxgraft bonering D7 mm/4,1 mm",451250.0,0,451250.0,Botiss (AllBiomed)
+Aloinjerto,31111,maxgraft Block cortico-cancellous 10x10x10mm,399000.0,0,399000.0,Botiss (AllBiomed)
+Aloinjerto,31251,maxgraft cortico 25x10x1mm,292600.0,0,292600.0,Botiss (AllBiomed)
+Aloinjerto,31253,maxgraft cortico 3 Pieces 25x10x1mm,690650.0,0,690650.0,Botiss (AllBiomed)
+Aloinjerto,32111,maxgraft Block cancellous 10x10x10mm,313500.0,0,313500.0,Botiss (AllBiomed)
+Aloinjerto,32112,maxgraft Block cancellous 10x10x20mm,532000.0,0,532000.0,Botiss (AllBiomed)
+Aloinjerto,PMIA,maxgraft bonebuilder Customer allogenic bone block,1244500.0,0,1244500.0,Botiss (AllBiomed)
+Aloinjerto,37005,"maxgraft X cortico-cancellous Granules 0,5 cc",64170.0,0,64170.0,Botiss (AllBiomed)
+Aloinjerto,37010,"maxgraft X cortico-cancellous Granules 1,0 cc",78375.0,0,78375.0,Botiss (AllBiomed)
+Aloinjerto,37020,"maxgraft X cortico-cancellous Granules 2,0 cc",117500.0,0,117500.0,Botiss (AllBiomed)
+Aloinjerto,37040,"maxgraft X cortico-cancellous Granules 4,0 cc",155100.0,0,155100.0,Botiss (AllBiomed)
+Instrumental,33000,maxgraft bonering surgical kit,370500.0,0,370500.0,Botiss (AllBiomed)
+Instrumental,440000,botiss Titan-Pin-Set,313500.0,0,313500.0,Botiss (AllBiomed)
+Instrumental,440310,botiss Titan-Pins,93100.0,0,93100.0,Botiss (AllBiomed)
+Instrumental,34000,maxgraft cortico Trimmer,579500.0,0,579500.0,Botiss (AllBiomed)
+NOVAMAG,721520,NovaMag membrane S 15 x 20 mm,140600.0,0,140600.0,Botiss (AllBiomed)
+NOVAMAG,722030,NovaMag membrane M 20 x 30 mm,184300.0,0,184300.0,Botiss (AllBiomed)
+NOVAMAG,723040,NovaMag membrane L 30 x 40 mm,202350.0,0,202350.0,Botiss (AllBiomed)
+NOVAMAG,74000,NovaMag connector (1 St.),12825.0,0,12825.0,Botiss (AllBiomed)
+NOVAMAG,74100402,"NovaMag fixation screw XS 1,0 x 3,5 mm (2er)",78375.0,0,78375.0,Botiss (AllBiomed)
+NOVAMAG,74140701,"NovaMag fixation screw S 1,4 x 7 mm",50825.0,0,50825.0,Botiss (AllBiomed)
+NOVAMAG,74140901,NovaMag fixation screw M 1.4 x 9 mm,50825.0,0,50825.0,Botiss (AllBiomed)
+NOVAMAG,74141101,NovaMag fixation screw L 1.4 x 11 mm,50825.0,0,50825.0,Botiss (AllBiomed)
+NOVAMAG,74141301,"NovaMag fixation screw XL 1,4 x 13 mm",50825.0,0,50825.0,Botiss (AllBiomed)
+NOVAMAG,BT1001,NovaMag safety cutter,97850.0,0,97850.0,Botiss (AllBiomed)
+NOVAMAG,BT1002,NovaMag sculptur,53200.0,0,53200.0,Botiss (AllBiomed)
+NOVAMAG,BT1003,NovaMag scissors,53200.0,0,53200.0,Botiss (AllBiomed)
+NOVAMAG,BT1004,NovaMag Drill Rack,65550.0,0,65550.0,Botiss (AllBiomed)
+NOVAMAG,BT1005,NovaMag steri Wash Tray,144400.0,0,144400.0,Botiss (AllBiomed)
+NOVAMAG,BT2009,precision drill,30970.0,0,30970.0,Botiss (AllBiomed)
+NOVAMAG,BT2010,pilot drill 1.0,44650.0,0,44650.0,Botiss (AllBiomed)
+NOVAMAG,BT2012,pilot drill 1.2,44650.0,0,44650.0,Botiss (AllBiomed)
+NOVAMAG,BT2013,pilot drill 1.35,44650.0,0,44650.0,Botiss (AllBiomed)
+Implantes,BIS,"Implante IS-II Active (Narrow, Regular)",54000.0,0,54000.0,Neobiotech
+Implantes,BIS,Implante IS-II Active Wide (mayor a 5.0 mm),63000.0,0,63000.0,Neobiotech
+Implantes,IS3,"Implante IS-III Active (Narrow, Regular)",63000.0,0,63000.0,Neobiotech
+Protesis,ISH,Cicatrizal,10000.0,0,10000.0,Neobiotech
+Protesis,ISIPH,Pick Up de Impresion,19800.0,0,19800.0,Neobiotech
+Protesis,ISITH,Transfer de Impresion,19800.0,0,19800.0,Neobiotech
+Protesis,ISLA,Analogo de Implante,10000.0,0,10000.0,Neobiotech
+Protesis,ISAHT,Pilar Temporario,19800.0,0,19800.0,Neobiotech
+Protesis,ISAH,Pilar Recto,32400.0,0,32400.0,Neobiotech
+Protesis,ISAHA/ISAHB,Pilar Angulado,44100.0,0,44100.0,Neobiotech
+Protesis,ISUPH/ISUPN,UCLA Plastico,16200.0,0,16200.0,Neobiotech
+Protesis,ISUCH/ISUCN,UCLA CrCo,32400.0,0,32400.0,Neobiotech
+Protesis,ISMUA,M. Unit Recto,40500.0,0,40500.0,Neobiotech
+Protesis,ISAHMUA,M. Unit Angulado 17/30 grados,57600.0,0,57600.0,Neobiotech
+Protesis,MUAHC48,Cicatrizal Multi Unit,10800.0,0,10800.0,Neobiotech
+Protesis,MUAIP48,Pick Up Multi Unit,19800.0,0,19800.0,Neobiotech
+Protesis,MUAIT48,TRANSFER MULTI UNIT,19800.0,0,19800.0,Neobiotech
+Protesis,MUALA48,Analogo Multi Unit,10000.0,0,10000.0,Neobiotech
+Protesis,MUATPCN48,Pilar Temporario Multi Unit,19800.0,0,19800.0,Neobiotech
+Protesis,MUACCN48,Pilar UCLA CrCo Multi Unit,32400.0,0,32400.0,Neobiotech
+Protesis,TI Cylinder,Tibase Neobiotech Largo para recortar,25200.0,0,25200.0,Neobiotech
+Protesis,IS LINK,Tibase IS LINK Neobiotech,25200.0,0,25200.0,Neobiotech
+Protesis,Locator,Pilar tipo Locator para Implante IS,36000.0,0,36000.0,Neobiotech
+Protesis,Cazoleta Locator,Cazoleta para Locator,14400.0,0,14400.0,Neobiotech
+Protesis,Kerator,Pilar Kerator para sobredentadura para implante IS,90000.0,0,90000.0,Neobiotech
+Protesis,Kerator Angulado,Pilar Kerator para sobredentadura para implante IS Angulado,106200.0,0,106200.0,Neobiotech
+Protesis,Cazoleta Kerator,Cazoleta con gomas para sistema Kerator,39600.0,0,39600.0,Neobiotech
+Protesis,Scanbody,Scanbody Digital Neobiotech (Implante y MU),22500.0,0,22500.0,Neobiotech
+Protesis,ISABA,Pilar tipo Bola,32400.0,0,32400.0,Neobiotech
+Protesis,BAH40,Housing tipo bola,25200.0,0,25200.0,Neobiotech
+Protesis,BAR20,Retenedor tipo bola,25200.0,0,25200.0,Neobiotech
+Protesis,BALA350,Analogo tipo Bola,17100.0,0,17100.0,Neobiotech
+Protesis,BAOIMP,Goma para impresion de repuesto,11700.0,0,11700.0,Neobiotech
+Protesis,BAORING,Oring repuesto,11700.0,0,11700.0,Neobiotech
+Biomateriales,NBP4x025,Novabone Putty 4 capsulas x 0.25cc (1 CC total.),136800.0,0,136800.0,Neobiotech
+Biomateriales,NBPMOR05x2,Novabone Granulado 0.5gr x 2 (1 Gr total),95000.0,0,95000.0,Neobiotech
+Biomateriales,PM1224A,Membrana PTFE con refuerzo de titanio 12x24 mm,76000.0,0,76000.0,Neobiotech
+Biomateriales,PM1424A,Membrana PTFE con refuerzo de titanio 14x24 mm,76000.0,0,76000.0,Neobiotech
+Biomateriales,PM1725A,Membrana PTFE con refuerzo de titanio 17x25 mm,76000.0,0,76000.0,Neobiotech
+Biomateriales,PM2025A,Membrana PTFE con refuerzo de titanio 20x25 mm,109250.0,0,109250.0,Neobiotech
+Biomateriales,PM2530A,Membrana PTFE con refuerzo de titanio 25x30 mm,125400.0,0,125400.0,Neobiotech
+Biomateriales,BSP,Bone Scrapper Osung,26600.0,0,26600.0,Neobiotech
+Biomateriales,BTS75-3,Bone Tack 3 mm (pack x 5),8500.0,0,8500.0,Neobiotech
+Biomateriales,BTS85-5,Bone Tack 5 mm (Pack x 5),8500.0,0,8500.0,Neobiotech
+Biomateriales,ACM,Fresa ACM para extraccion de hueso,126000.0,0,126000.0,Neobiotech
+Biomateriales,TMN122008,Malla titanio 12x20x0.085 mm,57000.0,0,57000.0,Neobiotech
+Biomateriales,TMN202508,Malla titanio 20x25x0.085 mm,76000.0,0,76000.0,Neobiotech
+Biomateriales,TMN253508,Malla titanio 25x35x0.085 mm,102600.0,0,102600.0,Neobiotech
+Biomateriales,TMN355008,Malla titanio 35x50x0.085 mm,131100.0,0,131100.0,Neobiotech
+Biomateriales,EZTENT,"Tornillo Tent 7,10,13 o 15 mm c/u",60800.0,0,60800.0,Neobiotech
+Biomateriales,MFS,"Tornillo Fixing 3, 5, 7 mm c/u",25175.0,0,25175.0,Neobiotech
+Biomateriales,CTIMEM,Malla Titania CTI,66500.0,0,66500.0,Neobiotech
+Biomateriales,ISCSP,Espaciador CTI,24700.0,0,24700.0,Neobiotech
+Kits,IS FULL,Kit Quirúrgico IS FULL para Implantes IS-II e IS-III,990000.0,0,990000.0,Neobiotech
+Kits,SWKIT,Kit Quirúrgico IS-II e IS-II ULTRA WIDE (6 y 7 mm) s/ratchet,720000.0,0,720000.0,Neobiotech
+Kits,SMKIT,Kit Quirúrgico S-Mini s/ratchet,720000.0,0,720000.0,Neobiotech
+Kits,SLA,Kit de elevación de seno por via lateral,990000.0,0,990000.0,Neobiotech
+Kits,SCA,Kit de elevación de seno por via crestal,990000.0,0,990000.0,Neobiotech
+Kits,Sinus All,"Kit 3 en 1: elev de seno por via lateral, crestal, Aquatap e implantes",1800000.0,0,1800000.0,Neobiotech
+Kits,FR,Kit de remoción de implantes,990000.0,0,990000.0,Neobiotech
+Kits,SR,Kit de remoción de tornillos Fracturados,990000.0,0,990000.0,Neobiotech
+Kits,HDPRKIT,Kit Multimarca Estudiantil ABM,385000.0,0,385000.0,Neobiotech
+Kits,Ridge Wider Kit,Kit de Expansion de tablas (sierra circular y fresa),1350000.0,0,1350000.0,Neobiotech
+Kits,Neo NAVIGUIDE,Kit de Cirugia Guiada Anillo Regular,2160000.0,0,2160000.0,Neobiotech
+Kits,Neo NAVIGUIDE NARROW,Kit de Cirugia Guiada Anillo Narrow,900000.0,0,900000.0,Neobiotech
+Kits,BSKIT,Kit GBR OSUNG,900000.0,0,900000.0,Neobiotech
+Implantes,109.906,"Implante Titamax GM, TI, 3.5X7",53922.0,0,53922.0,Neodent
+Implantes,109.949,"Implante Helix GM, TI, 4.3X10",70669.0,0,70669.0,Neodent
+Implantes,140.949,"Implante Helix GM Acqua, Ti, 4.3X10",82021.0,0,82021.0,Neodent
+Implantes,140.1066,IMPLANTE HELIX SHORT ACQUA 4.0X4.0,82021.0,0,82021.0,Neodent
+Implantes,140.1063,IMPLANTE HELIX NGM ACQUA 2.9X10,82022.0,0,82022.0,Neodent
+Implantes,109.1043,"Implante Helix Gm Lg, Ti, 3.75x20",161051.0,0,161051.0,Neodent
+Implantes,109.1050,"Implante Cigomatico Gm, Ti, 4.0x35",145971.0,0,145971.0,Neodent
+Implantes,180.503,IMPLANTE DE ZIRCONIA 3.75X11.5,26056.0,0,26056.0,Neodent
+Protesis,114.738,"Muñón Pro Peek GM, TI/Peek, 4.5X0.8",26056.0,0,26056.0,Neodent
+Protesis,117.022,"Tornillo De Cobertura GM, Ti, 2",8776.0,0,8776.0,Neodent
+Protesis,106.214,"Cicatrizador GM, TI, 4.5X1.5",19308.0,0,19308.0,Neodent
+Protesis,115.238,"Pilar GM Exact, Ti, 4.8X1.5",36709.0,0,36709.0,Neodent
+Protesis,108.179,"Transfer Pilar Gm Cubeta Cerrada, Ti, 4.8",20162.0,0,20162.0,Neodent
+Protesis,101.076,"Analogo Del Pilar, Ti, 4.8",10487.0,0,10487.0,Neodent
+Protesis,118.300,"Cilindro Pilar Antirrot Neo, Ti, 4.8",33321.0,0,33321.0,Neodent
+Protesis,106.221,"Cilindro Proteccion Pilar Neo, Ti, 4.8",15814.0,0,15814.0,Neodent
+Protesis,118.298,"Cil. Calci. Pilar Antirrot Neo, Poly, 4.8",18072.0,0,18072.0,Neodent
+Protesis,118.299,"Cilindro Pilar Antirrot Neo, Cocr, 4.8",44331.0,0,44331.0,Neodent
+Protesis,115.244,"Mini Pilar Conico GM, Ti, 1.5",34479.0,0,34479.0,Neodent
+Protesis,115.249,"Mini Pilar Conico Ang GM Exact 17, Ti, 1.5",44819.0,0,44819.0,Neodent
+Protesis,108.176,"Transfer Mini Pilar Cubeta Abierta, Ti",20162.0,0,20162.0,Neodent
+Protesis,101.020,Analog Mini Pilar Conico Ti 4.1,11208.0,0,11208.0,Neodent
+Protesis,101.092,"Analogo reposic. hibr. Mini Pilar, Ti 4.1",18072.0,0,18072.0,Neodent
+Protesis,118.302,"Cilindro Mini Pilar Conico Neo, Ti, 4.1",33321.0,0,33321.0,Neodent
+Protesis,106.220,"Cilindro Protec. MiniPilarConico Neo, Ti",15814.0,0,15814.0,Neodent
+Protesis,118.301,"Cil. Calci. MiniPilarConico Neo, Poly, 4.1",18072.0,0,18072.0,Neodent
+Protesis,118.303,"Cilindro MiniPilarCon Neo, Cocr, 4.1",44331.0,0,44331.0,Neodent
+Protesis,108.137,Trans Escanintra Mini Pilar Coni Poly4.1/4.3,21461.0,0,21461.0,Neodent
+Protesis,115.259,"Micro Pilar GM, Ti, 4.5",34479.0,0,34479.0,Neodent
+Protesis,108.178,"Transfer Micro Pilar Cubeta Abierta, Ti",20162.0,0,20162.0,Neodent
+Protesis,101.078,"Analogo Micro Pilar Antirrotacional, Ti",10487.0,0,10487.0,Neodent
+Protesis,118.297,"Cilindro Micro Pilar Neo, Ti",33321.0,0,33321.0,Neodent
+Protesis,106.219,"Cilindro Proteccion Micro Pilar Neo, Ti",15814.0,0,15814.0,Neodent
+Protesis,118.295,"Cil. Calci. Micro Pilar Neo, Poly",18072.0,0,18072.0,Neodent
+Protesis,118.296,"Cilindro Micro Pilar Neo, Cocr",44331.0,0,44331.0,Neodent
+Protesis,108.140,Trans Escan Intra Micro Pilar ConicoPoly,21461.0,0,21461.0,Neodent
+Protesis,114.566,"Munon Universal GM Exact, Ti, 3.3X4X0.8",34747.0,0,34747.0,Neodent
+Protesis,114.542,"Munon Univ Ang GM Exact 17, Ti, 3.3X4X1.5",45086.0,0,45086.0,Neodent
+Protesis,108.173,"Transfer Del Munon Universal, Poly, 3.3X6",6779.0,0,6779.0,Neodent
+Protesis,101.073,"Analogo Del Munon Universal, Ti, 4.5X6",10487.0,0,10487.0,Neodent
+Protesis,118.305,"Cilindro Prov Del Munon Univ, Poly, 3.3X6",8324.0,0,8324.0,Neodent
+Protesis,118.182,Cilindro Calcinable Munon Univ. Poly3.3X6,11035.0,0,11035.0,Neodent
+Protesis,108.144,Trans Escan Intra Munon Univ Poly 3.3X6,20162.0,0,20162.0,Neodent
+Protesis,135.361,BASE TITANIO GM TORN NEO EXTR 3.5X6X0.8,21461.0,0,21461.0,Neodent
+Protesis,135.349,BASE TITANIO GM C TORNILLO NEO EXTR 0.8,47310.0,0,47310.0,Neodent
+Protesis,135.328,BASE DE TITANIO GM AS 4.0X4X1.5,24563.0,0,24563.0,Neodent
+Protesis,118.344,Componente Temp Gm Antirrot Ti 3.5X0.8,27917.0,0,27917.0,Neodent
+Protesis,108.162,"Transfer Exact Impl GM Cubeta Abierta, Ti",20162.0,0,20162.0,Neodent
+Protesis,101.074,"Analogo Del Implante GM, Ti",11705.0,0,11705.0,Neodent
+Protesis,101.103,"Analogo Rep Hibrido Gm, Ti, 3.5/3.75",14040.0,0,14040.0,Neodent
+Protesis,118.323,"CilCalcBaseDeTi, Pol,3.5X6",18072.0,0,18072.0,Neodent
+Protesis,108.183,TRANSFER PARA ESCANEADO INTRAORAL GM,20162.0,0,20162.0,Neodent
+Protesis,118.309,Base De Cobalto-cromo Gm Exact 3.5/3.75,33886.0,0,33886.0,Neodent
+Protesis,102.107,O-Ring Cilindro Attachment Equator,19656.0,0,19656.0,Neodent
+Protesis,102.108,Oring Rosa Attachment Facility Poly,8789.0,0,8789.0,Neodent
+Protesis,102.148,GM ATTACHMENT TIN PARA PROTESE REMOVIVEL,51698.0,0,51698.0,Neodent
+Protesis,2010.601-NOV,"Novaloc Paquete procesamiento, Ti, 2unid.",31782.0,0,31782.0,Neodent
+Protesis,2010.720-NOV,"Novaloc Análogo de modelo, angul. 15, Al",44604.0,0,44604.0,Neodent
+Protesis,2010.722-NOV,"Novaloc Cofia de impresión, PEEK, 4unid.",38419.0,0,38419.0,Neodent
+Protesis,2010.724-NOV,"Novaloc Collar d.proces., silicona, 10un.",8727.0,0,8727.0,Neodent
+Protesis,2010.710-NOV,"Novaloc Inserto retención rojo, 4unid.",19305.0,0,19305.0,Neodent
+Protesis,135.255,BASE DE ZIRCONIO 3.75X4.0X2.5,32192.0,0,32192.0,Neodent
+Protesis,135.258,BASE DE ZIRCONIA C ALT 1.5,70966.0,0,70966.0,Neodent
+Protesis,114.855,PILAR CR DE ZIRCONIA ESTRECHO ALT2.5,52120.0,0,52120.0,Neodent
+Protesis,114.858,PILAR CR 17G DE ZIRCONIA ESTRECHO ALT1.5,67630.0,0,67630.0,Neodent
+Protesis,101.105,ANÁLOGO P/PILAR CR ZIRCONIA REGULAR,10905.0,0,10905.0,Neodent
+Protesis,118.367,CILIND CALCIN P/PILAR CR DE ZIRCO ESTRE,10714.0,0,10714.0,Neodent
+Protesis,108.184,"Transfer P/ Escan Implante Zirconio, Poly",20162.0,0,20162.0,Neodent
+Protesis,101.080,"Analogo Rep Hibrido Implante Zirconio, Ti",14040.0,0,14040.0,Neodent
+Protesis,114.889,MUNON CR EN PEEK ESTRECHO ALT 2.5.,33127.0,0,33127.0,Neodent
+Protesis,108.201,TRANSFER CILINDRO MUNON CR ESTRECHO,8789.0,0,8789.0,Neodent
+Protesis,118.343,"CilindroCalcinBaseZirconio, Poly, 3.75x4",23264.0,0,23264.0,Neodent
+Protesis,118.325,"CilCalcBaseDeTi(tornNeo), Pol,4.5X4",18072.0,0,18072.0,Neodent
+Protesis,117.023,"Tornillo Cobertura Implante Zirconio, Ti",12408.0,0,12408.0,Neodent
+Protesis,106.233,"Cicatrizador p/ Imp Zirconio, Zr, 3.75X1.5",31031.0,0,31031.0,Neodent
+Protesis,105.001,Conexion Hexagonal Corta Carraca StSt,18808.0,0,18808.0,Neodent
+Acciones preventivas,AP002,"Instrucción de higiene oral, técnica de cepillado",12700.0,0,12700.0,USS Valdivia
+Cirugía bucal,CB001,Exodoncia simple,11900.0,0,11900.0,USS Valdivia
+Cirugía bucal,CB002,Exodoncia a colgajo o semi-incluida,29500.0,0,29500.0,USS Valdivia
+Cirugía bucal,CB003,Exodoncia diente incluido,41200.0,0,41200.0,USS Valdivia
+Cirugía bucal,CB005,Exodoncia 4 terceros molares incluidos,152800.0,0,152800.0,USS Valdivia
+Cirugía bucal,CB007,Radectomía u odontosección,33500.0,0,33500.0,USS Valdivia
+Cirugía bucal,CB008,Tratamiento de complicación postquirúrgica (alveolitis húmeda o seca),33100.0,0,33100.0,USS Valdivia
+Cirugía bucal,CB011,Extirpación de mucoceles,58900.0,0,58900.0,USS Valdivia
+Cirugía bucal,CB012,Cirugía apical y pararradicular con o sin relleno a retro (incisivos y caninos),66900.0,0,66900.0,USS Valdivia
+Cirugía bucal,CB013,Cirugía apical y pararradicular con o sin relleno a retro (premolares y molares),83400.0,0,83400.0,USS Valdivia
+Cirugía bucal,CB015,"Resección o plastía de frenillos, bridas, sinequias o cirugía preprotésica",58900.0,0,58900.0,USS Valdivia
+Cirugía bucal,CB016,Biopsia de mucosa,53600.0,0,53600.0,USS Valdivia
+Cirugía bucal,CB017,Biopsia de hueso,18200.0,0,18200.0,USS Valdivia
+Cirugía bucal,CB018,Enucleación de quiste o tumor simple,94100.0,0,94100.0,USS Valdivia
+Cirugía de Implantes,CI001,Implante oseointegrado,58900.0,0,58900.0,USS Valdivia
+Cirugía de Implantes,CI002,Reconstrucción de rebordes con homo o heteroinjertos,176300.0,0,176300.0,USS Valdivia
+Cirugía de Implantes,CI003,Elevación seno maxilar,235000.0,0,235000.0,USS Valdivia
+Cirugía de Implantes,CI004,Control de implantes,0.0,0,0.0,USS Valdivia
+Cirugía de Implantes,CI005,Conexión de implantes,29500.0,0,29500.0,USS Valdivia
+Cirugía de Implantes,CI006,Regeneración tisular guiada,88200.0,0,88200.0,USS Valdivia
+Cirugía de Implantes,CI007,Guía quirurgica acrilica transparente (incluye ordenación),7500.0,0,7500.0,USS Valdivia
+Cirugía de Implantes,CI008,Guía quirurgica impresa exacta total o hemiarcada (no incluye diseño ni aditamen),10500.0,0,10500.0,USS Valdivia
+Cirugía de Implantes,CI009,Guía quirúrgica acrílica transparente (por sextante),11000.0,0,11000.0,USS Valdivia
+Endodoncia,ED001,Endodoncia diente anterior,36000.0,0,36000.0,USS Valdivia
+Endodoncia,ED002,Endodoncia Premolar,48000.0,0,48000.0,USS Valdivia
+Endodoncia,ED005,Endodoncia Molar inferior,60000.0,0,60000.0,USS Valdivia
+Endodoncia,ED007,Retratamiento Diente Anterior,50000.0,0,50000.0,USS Valdivia
+Endodoncia,ED008,Retratamiento Premolar,58900.0,0,58900.0,USS Valdivia
+Endodoncia,ED009,Retratamiento Molar inferior,72000.0,0,72000.0,USS Valdivia
+Endodoncia,ED013,Sellado perforaciones y/o falsas vias,23600.0,0,23600.0,USS Valdivia
+Endodoncia,ED014,Inducción al cierre apical por sesión,26300.0,0,26300.0,USS Valdivia
+Endodoncia,ED015,Recubrimiento pulpar directo o indirecto pieza permanente,13100.0,0,13100.0,USS Valdivia
+Estetica orofacial,EOF01,Diagnóstico,5800.0,0,5800.0,USS Valdivia
+Estetica orofacial,EOF02,Control de procedimiento estético,5800.0,0,5800.0,USS Valdivia
+Estetica orofacial,EOF03,Peeling facial,34300.0,0,34300.0,USS Valdivia
+Estetica orofacial,EOF04,PRP,68500.0,0,68500.0,USS Valdivia
+Estetica orofacial,EOF05,Mesoterapia,41200.0,0,41200.0,USS Valdivia
+Estetica orofacial,EOF06,Toxina Botulínica,114100.0,0,114100.0,USS Valdivia
+Estetica orofacial,EOF07,Hilos Revitalizantes (5 unidades),171100.0,0,171100.0,USS Valdivia
+Estetica orofacial,EOF08,Implantes Faciales I,114100.0,0,114100.0,USS Valdivia
+Estetica orofacial,EOF09,Implantes Faciales II,182500.0,0,182500.0,USS Valdivia
+Estetica orofacial,EOF10,Hilos 10 unidades,216700.0,0,216700.0,USS Valdivia
+Estetica orofacial,EOF11,Rinomodelación,114100.0,0,114100.0,USS Valdivia
+Estetica orofacial,EOF12,Aplicacion de hialuronidasa externo,57100.0,0,57100.0,USS Valdivia
+Operatoria dental,OO001,Restauración composite fotocurado simple anterior o posterior,16600.0,0,16600.0,USS Valdivia
+Operatoria dental,OO002,Restauración composite fotocurado compuesta anterior o posterior,18900.0,0,18900.0,USS Valdivia
+Operatoria dental,OO003,Restauración composite sin cavidad clase V,11900.0,0,11900.0,USS Valdivia
+Operatoria dental,OO004,Carilla Directa,29500.0,0,29500.0,USS Valdivia
+Operatoria dental,OO005,Carilla Indirecta porcelana,101300.0,0,101300.0,USS Valdivia
+Operatoria dental,OO008,Obturación de vidrio ionómero,14200.0,0,14200.0,USS Valdivia
+Operatoria dental,OO009,Aplicación de sellante diente definitivo o temporal,14200.0,0,14200.0,USS Valdivia
+Operatoria dental,OO010,Incrustación cerámica (inlay-onlay),118200.0,0,118200.0,USS Valdivia
+Operatoria dental,OO011,Incrustación cerómero (inlay onlay) o carilla indirecta,77900.0,0,77900.0,USS Valdivia
+Pabellón,PB006,Toma de muestra PRF/I-PRF,11900.0,0,11900.0,USS Valdivia
+Pabellón,PB007,Derecho de pabellón Cirugías de Baja Complejidad,53500.0,0,53500.0,USS Valdivia
+Pabellón,PB008,Derecho de pabellón Cirugías de Mediana Complejidad,83100.0,0,83100.0,USS Valdivia
+Pabellón,PB009,Derecho de pabellón de Cirugías de Alta Complejidad,118600.0,0,118600.0,USS Valdivia
+Pabellón,PB013,Derecho a pabellon de Cirugía Múltiple,154100.0,0,154100.0,USS Valdivia
+Periodoncia,PD002,Pulido radicular por sextante,17700.0,0,17700.0,USS Valdivia
+Periodoncia,PD003,Destartraje supragingival por arcada,17700.0,0,17700.0,USS Valdivia
+Periodoncia,PD004,Destartraje subgingival por arcada,17700.0,0,17700.0,USS Valdivia
+Periodoncia,PD007,Tratamiento de hipersensibilidad dentaria post-terapia por sesión,35400.0,0,35400.0,USS Valdivia
+Periodoncia,PD008,"Cirugías mucogingivales, ancho biológico, gingivectomía o colgajo periodontal",17700.0,0,17700.0,USS Valdivia
+Periodoncia,PD020,Urgencia periodontal,11500.0,0,11500.0,USS Valdivia
+Periodoncia,PD023,Profilaxis (Pulido coronario),9600.0,0,9600.0,USS Valdivia
+Periodoncia,PD026,Tratamiento de periodontitis leve,51400.0,0,51400.0,USS Valdivia
+Periodoncia,PD027,Tratamiento de periodontitis moderado,68500.0,0,68500.0,USS Valdivia
+Periodoncia,PD028,Tratamiento de periodontitis severas,91300.0,0,91300.0,USS Valdivia
+Periodoncia,PD032,Terapia periodontal de mantencion,28600.0,0,28600.0,USS Valdivia
+Periodoncia,PD033,Desgaste selectivo,9600.0,0,9600.0,USS Valdivia
+Periodoncia,PD035,Alargamiento coronario unitario,28600.0,0,28600.0,USS Valdivia
+Periodoncia,PD036,Colgajo periodontal por grupo,40000.0,0,40000.0,USS Valdivia
+Periodoncia,PD037,Cirugia mucogingival por grupo,74200.0,0,74200.0,USS Valdivia
+Periodoncia,PD038,Toma de injerto conjuntivo,45700.0,0,45700.0,USS Valdivia
+Periodoncia,PD039,Toma de injerto gingival libre,34300.0,0,34300.0,USS Valdivia
+Periodoncia,PD040,Cuña distal,28600.0,0,28600.0,USS Valdivia
+Periodoncia,PD041,Frenectomia simple,34300.0,0,34300.0,USS Valdivia
+Periodoncia,PD043,Gingivectomia unitaria,28600.0,0,28600.0,USS Valdivia
+Periodoncia,PD044,Gingivectomia por grupo,57100.0,0,57100.0,USS Valdivia
+Periodoncia,PD048,Control postquirurgico (sesion),0.0,0,0.0,USS Valdivia
+Periodoncia,PD049,Regeneración ósea,74200.0,0,74200.0,USS Valdivia
+Prótesis fija,PF004,Perno fibra de vidrio o preformado,29500.0,0,29500.0,USS Valdivia
+Prótesis fija,PF005,Provisorio de acrílico (clínica),15000.0,0,15000.0,USS Valdivia
+Prótesis fija,PF006,Corona provisoria de acrílico o policarbonato (laboratorio),28700.0,0,28700.0,USS Valdivia
+Prótesis fija,PF008,Corona libre de metal (porcelana pura o solo zirconio o feldespato),130700.0,0,130700.0,USS Valdivia
+Prótesis fija,PF009,Corona cerómero,63500.0,0,63500.0,USS Valdivia
+Prótesis fija,PF010,Incrustación metálica como inserción PFP,63600.0,0,63600.0,USS Valdivia
+Prótesis fija,PF011,Corona inserción PFP porcelana sobre metal,102900.0,0,102900.0,USS Valdivia
+Prótesis fija,PF012,Corona intermediaria PFP porcelana sobre metal,85400.0,0,85400.0,USS Valdivia
+Prótesis fija,PF013,Corona insercion PFP libre de metal,103600.0,0,103600.0,USS Valdivia
+Prótesis fija,PF014,Corona intermediaria PFP libre de metal,103600.0,0,103600.0,USS Valdivia
+Prótesis fija,PF015,Inserción para puente adhesivo Maryland,54900.0,0,54900.0,USS Valdivia
+Prótesis fija,PF017,Retiro de espiga muñón colada,11900.0,0,11900.0,USS Valdivia
+Prótesis fija,PF018,Retiro de espiga muñón preformada,17700.0,0,17700.0,USS Valdivia
+Prótesis fija,PF019,Retiro coronas antiguas (por inserción),17700.0,0,17700.0,USS Valdivia
+Prótesis fija,PF020,Recementación corona sin correciones,17700.0,0,17700.0,USS Valdivia
+Prótesis fija,PF023,Soporte radicular (sochapa),43600.0,0,43600.0,USS Valdivia
+Prótesis fija,PF024,Hombro cerámico,20900.0,0,20900.0,USS Valdivia
+Prótesis fija,PF026,Intermediario para puente adhesivo Maryland,59700.0,0,59700.0,USS Valdivia
+Prótesis fija,PF027,Fresado palatino o rielera proximal (c/u),22100.0,0,22100.0,USS Valdivia
+Prótesis fija,PF028,Corona de sustitución,107600.0,0,107600.0,USS Valdivia
+Prótesis fija,PF030,Puente PFP Porcelana sobre metal,240400.0,0,240400.0,USS Valdivia
+Prótesis fija,PF031,Corona Libre de Metal (Disilicato),118600.0,0,118600.0,USS Valdivia
+Prótesis fija,PF032,Endocrown,95400.0,0,95400.0,USS Valdivia
+Prótesis fija,PF033,Corona en duralay,14400.0,0,14400.0,USS Valdivia
+Prótesis fija,PF034,MOCK UP,29700.0,0,29700.0,USS Valdivia
+Prestaciones dentales grales,PG001,"Examen inicial, diagnóstico y plan de tratamiento.",0.0,0,0.0,USS Valdivia
+Prestaciones dentales grales,PG009,Montaje en articulador,6000.0,0,6000.0,USS Valdivia
+Prestaciones dentales grales,PG010,Encerado diagnóstico por diente,9500.0,0,9500.0,USS Valdivia
+Prestaciones dentales grales,PG011,Control odontopediatría,0.0,0,0.0,USS Valdivia
+Prestaciones dentales grales,PG012,Encía artificial por sector,3600.0,0,3600.0,USS Valdivia
+Prótesis removible,PR001,Prótesis removible total acrílica superior o inferior,77100.0,0,77100.0,USS Valdivia
+Prótesis removible,PR003,Prótesis removible parcial acrílica superior o inferior,87700.0,0,87700.0,USS Valdivia
+Prótesis removible,PR004,Prótesis removible parcial metálica superior o inferior,162200.0,0,162200.0,USS Valdivia
+Prótesis removible,PR006,Rebasado acrílico de prótesis,73500.0,0,73500.0,USS Valdivia
+Prótesis removible,PR007,Acondicionamiento de tejidos.,6500.0,0,6500.0,USS Valdivia
+Prótesis removible,PR011,Atache o broche,4000.0,0,4000.0,USS Valdivia
+Prótesis removible,PR014,Plano estabilizador con frente estético,35500.0,0,35500.0,USS Valdivia
+Prótesis removible,PR015,Cubeta Individual,3700.0,0,3700.0,USS Valdivia
+Prótesis removible,PR017,Rodete,4500.0,0,4500.0,USS Valdivia
+Prótesis removible,PR018,Ordenación Total,5600.0,0,5600.0,USS Valdivia
+Prótesis removible,PR019,Ordenación Parcial,3600.0,0,3600.0,USS Valdivia
+Prótesis removible,PR020,Rebasado acrílico de prótesis directo,29500.0,0,29500.0,USS Valdivia
+Prótesis removible,PR021,Refuerzo metálico para prótesis removible,11300.0,0,11300.0,USS Valdivia
+Prótesis removible,PR023,Prótesis inmediata superior o inferior,8400.0,0,8400.0,USS Valdivia
+Prótesis removible,PR026,Modelo de diagnóstico,4000.0,0,4000.0,USS Valdivia
+Prótesis removible,PR027,Modelo de diagnóstico con máscara gingival,4000.0,0,4000.0,USS Valdivia
+Radiología,RD001,Radiografía retroalveolar,2800.0,0,2800.0,USS Valdivia
+Radiología,RD002,Radiografía retroalveolar total,16600.0,0,16600.0,USS Valdivia
+Radiología,RD003,Radiografía oclusal,4600.0,0,4600.0,USS Valdivia
+Radiología,RD004,Radiografía bite wing unilateral (2 películas),5800.0,0,5800.0,USS Valdivia
+Radiología,RD006,Radiografía bite wing bilateral,6000.0,0,6000.0,USS Valdivia
+Radiología,RD008,Radiografías para Endodoncia (3Rx),4800.0,0,4800.0,USS Valdivia
+Radiología,RD021,Radiografías para Endodoncia (5Rx),6000.0,0,6000.0,USS Valdivia
+Rehabilitacion sobre implante,RI001,Pilar muñón sobre implantes,97000.0,0,97000.0,USS Valdivia
+Rehabilitacion sobre implante,RI002,Corona temporal sobre implantes,23000.0,0,23000.0,USS Valdivia
+Rehabilitacion sobre implante,RI004,Intermediario prótesis fija sobre implantes,33700.0,0,33700.0,USS Valdivia
+Rehabilitacion sobre implante,RI009,Instalación de broche (o'ring),61900.0,0,61900.0,USS Valdivia
+Rehabilitacion sobre implante,RI012,Recambio de o'ring o clip barra,11900.0,0,11900.0,USS Valdivia
+Rehabilitacion sobre implante,RI013,Cambio de tornillos protésicos,23600.0,0,23600.0,USS Valdivia
+Rehabilitacion sobre implante,RI014,Anclaje de precisión sobre implantes,67400.0,0,67400.0,USS Valdivia
+Rehabilitacion sobre implante,RI015,Prótesis tipo admodum(con barra de titanio)hasta 4 implantes,722600.0,0,722600.0,USS Valdivia
+Rehabilitacion sobre implante,RI016,Prótesis tipo admodum(con barra de titanio)hasta 6 implantes,722600.0,0,722600.0,USS Valdivia
+Rehabilitacion sobre implante,RI020,Corona Sobre implantes Atornillada/Cementada Zirconio,103600.0,0,103600.0,USS Valdivia
+Rehabilitacion sobre implante,RI021,Corona Sobre implantes Cementada (Disilicato),103600.0,0,103600.0,USS Valdivia
+Rehabilitacion sobre implante,RI022,Intermediario prótesis fija sobre implantes (Zirconio monolitico),87300.0,0,87300.0,USS Valdivia
+Rehabilitacion sobre implante,RI023,Intermediario prótesis fija sobre implantes (disilicato Monolitico),87300.0,0,87300.0,USS Valdivia
+Rehabilitacion sobre implante,RI025,Prótesis total implantosoportada tipo admodum hasta 6 conex,907600.0,0,907600.0,USS Valdivia
+Rehabilitacion sobre implante,RI027,Prótesis total implantosoportada tipo bridge de Zirconio,907600.0,0,907600.0,USS Valdivia
+Rehabilitacion sobre implante,RI030,Prótesis Hibrida (o sobre peck),82400.0,0,82400.0,USS Valdivia
+Procedimiento,OTROS,Otros,0.0,0,0.0,USS Valdivia
+Componentes,SB001,Scanbody Neobiotech,0.0,0,35000.0,Neobiotech
+Componentes,SB002,Scanbody Neodent,0.0,0,35000.0,Neodent
