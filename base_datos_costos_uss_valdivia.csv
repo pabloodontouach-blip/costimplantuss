@@ -363,3 +363,59 @@ Rehabilitacion sobre implante,RI030,Prótesis Hibrida (o sobre peck),82400.0,0,8
 Procedimiento,OTROS,Otros,0.0,0,0.0,USS Valdivia
 Componentes,SB001,Scanbody Neobiotech,0.0,0,35000.0,Neobiotech
 Componentes,SB002,Scanbody Neodent,0.0,0,35000.0,Neodent
+Biomateriales,LFN01,Oragraft Mineralizado Cortical 0.25cc,52000,0,52000,Lifenet/Viaossea
+Biomateriales,LFN02,Oragraft Mineralizado Cortical 0.5cc,65000,0,65000,Lifenet/Viaossea
+Biomateriales,LFN03,Oragraft Mineralizado Cortical 1.2cc,99000,0,99000,Lifenet/Viaossea
+Biomateriales,LFN04,Oragraft Mineralizado Cortical 2.5cc,169000,0,169000,Lifenet/Viaossea
+Biomateriales,LFN05,Oragraft Mineralizado Esponjoso 0.5cc,75000,0,75000,Lifenet/Viaossea
+Biomateriales,LFN06,Oragraft Mineralizado Esponjoso 1.0cc,99000,0,99000,Lifenet/Viaossea
+Biomateriales,LFN07,Oragraft Mineralizado Esponjoso 2.0cc,169000,0,169000,Lifenet/Viaossea
+Biomateriales,LFN08,Oragraft Mineralizado Mixto 50/50 0.5cc,85000,0,85000,Lifenet/Viaossea
+Biomateriales,LFN09,Oragraft Mineralizado Mixto 50/50 1.0cc,119000,0,119000,Lifenet/Viaossea
+Biomateriales,LFN10,Oragraft Mineralizado Mixto 50/50 2.0cc,180000,0,180000,Lifenet/Viaossea
+Biomateriales,LFN11,Oragraft Cortical Desmineralizado 0.25cc,60000,0,60000,Lifenet/Viaossea
+Biomateriales,LFN12,Oragraft Cortical Desmineralizado 0.5cc,75000,0,75000,Lifenet/Viaossea
+Biomateriales,LFN13,Oragraft Cortical Desmineralizado 1.2cc,110000,0,110000,Lifenet/Viaossea
+Biomateriales,LFN14,Oragraft Cortical Desmineralizado 2.5cc,180000,0,180000,Lifenet/Viaossea
+Biomateriales,LFN15,Oragraft Fibras Desmineralizadas 0.5cc,85000,0,85000,Lifenet/Viaossea
+Biomateriales,LFN16,Oragraft Fibras Desmineralizadas 1.0cc,119000,0,119000,Lifenet/Viaossea
+Biomateriales,LFN17,Oragraft Fibras Desmineralizadas 2.0cc,180000,0,180000,Lifenet/Viaossea
+Biomateriales,LFN18,Oragraft Cortical (100%) 0.5cc,120000,0,120000,Lifenet/Viaossea
+Biomateriales,LFN19,Oragraft Cortical (100%) 1.0cc,190000,0,190000,Lifenet/Viaossea
+Biomateriales,LFN20,Oragraft Cortical (100%) 2.5cc,340000,0,340000,Lifenet/Viaossea
+Membranas,LFN21,Oracell Membrana Dermis 1.0x1.0cm,69000,0,69000,Lifenet/Viaossea
+Membranas,LFN22,Oracell Membrana Dermis 1.5x2.0cm,99000,0,99000,Lifenet/Viaossea
+Membranas,LFN23,Oracell Membrana Dermis 1.0x4.0cm,129000,0,129000,Lifenet/Viaossea
+Membranas,LFN24,Oracell Membrana Dermis 2.0x4.0cm,159000,0,159000,Lifenet/Viaossea
+Membranas,LFN25,Oramatrix Membrana Placenta 10x10mm,99000,0,99000,Lifenet/Viaossea
+Membranas,LFN26,Oramatrix Membrana Placenta 15x20mm,195000,0,195000,Lifenet/Viaossea
+Membranas,LFN27,Oramatrix Membrana Placenta 20x30mm,290000,0,290000,Lifenet/Viaossea
+Biomateriales,LFN28,Bloque Iliaco Unicortical 10x15x8mm,290000,0,290000,Lifenet/Viaossea
+Biomateriales,LFN29,Bloque Iliaco Unicortical 10x25x8mm,350000,0,350000,Lifenet/Viaossea
+Biomateriales,LFN30,Bloque Iliaco Bicortical 15x20mm,595000,0,595000,Lifenet/Viaossea
+Biomateriales,LFN31,Bloque Iliaco Bicortical 15x30mm,659000,0,659000,Lifenet/Viaossea
+Biomateriales,LFN32,Bloque Iliaco Bicortical 20x40mm,749000,0,749000,Lifenet/Viaossea
+Biomateriales,LFN33,Cortical Plate Estructural 30x15x1mm,399000,0,399000,Lifenet/Viaossea
+Biomateriales,LFN34,Viaoss Porcino Mineralizado 0.5cc,55000,0,55000,Lifenet/Viaossea
+Biomateriales,LFN35,Viaoss Porcino Mineralizado 1.0cc,85000,0,85000,Lifenet/Viaossea
+Biomateriales,LFN36,Viaoss Porcino Mineralizado 2.5cc,125000,0,125000,Lifenet/Viaossea
+Membranas,LFN37,Viaflex Membrana Peritoneo 15x20mm,69000,0,69000,Lifenet/Viaossea
+Membranas,LFN38,Viaflex Membrana Peritoneo 20x30mm,95000,0,95000,Lifenet/Viaossea
+Membranas,LFN39,Viaflex Membrana Peritoneo 30x40mm,121000,0,121000,Lifenet/Viaossea
+Membranas,LFN40,Ossix Plus Membrana 15x25mm,105000,0,105000,Lifenet/Viaossea
+Membranas,LFN41,Ossix Plus Membrana 25x30mm,128000,0,128000,Lifenet/Viaossea
+Membranas,LFN42,Ossix Plus Membrana 30x40mm,134000,0,134000,Lifenet/Viaossea
+Membranas,LFN43,Ossix Volumax 10x12.5mm,79000,0,79000,Lifenet/Viaossea
+Membranas,LFN44,Ossix Volumax 15x25mm,105000,0,105000,Lifenet/Viaossea
+Membranas,LFN45,Ossix Volumax 25x30mm,134000,0,134000,Lifenet/Viaossea
+Biomateriales,LFN46,Ossix Bone Scaffold 0.125cc,79000,0,79000,Lifenet/Viaossea
+Biomateriales,LFN47,Ossix Bone Scaffold 0.25cc,105000,0,105000,Lifenet/Viaossea
+Biomateriales,LFN48,Ossix Bone Scaffold 0.5cc,134000,0,134000,Lifenet/Viaossea
+Biomateriales,LFN49,Salmoss HAPS 0.2gr,40460,0,40460,Lifenet/Viaossea
+Biomateriales,LFN50,Salmoss HAPS 0.5gr,52360,0,52360,Lifenet/Viaossea
+Biomateriales,LFN51,Salmoss HAPS 1.0gr,85680,0,85680,Lifenet/Viaossea
+Biomateriales,LFN52,Salmoss HAPS 2.5gr,136850,0,136850,Lifenet/Viaossea
+Biomateriales,LFN53,Salmoss Xenoinjerto 0.2gr,36000,0,36000,Lifenet/Viaossea
+Biomateriales,LFN54,Salmoss Xenoinjerto 0.5gr,48000,0,48000,Lifenet/Viaossea
+Biomateriales,LFN55,Salmoss Xenoinjerto 1.0gr,73000,0,73000,Lifenet/Viaossea
+Biomateriales,LFN56,Salmoss Xenoinjerto 2.5gr,119000,0,119000,Lifenet/Viaossea
