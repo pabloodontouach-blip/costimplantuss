@@ -419,3 +419,75 @@ Biomateriales,LFN53,Salmoss Xenoinjerto 0.2gr,36000,0,36000,Lifenet/Viaossea
 Biomateriales,LFN54,Salmoss Xenoinjerto 0.5gr,48000,0,48000,Lifenet/Viaossea
 Biomateriales,LFN55,Salmoss Xenoinjerto 1.0gr,73000,0,73000,Lifenet/Viaossea
 Biomateriales,LFN56,Salmoss Xenoinjerto 2.5gr,119000,0,119000,Lifenet/Viaossea
+Implantes,IL560,"Implante Lance",56000,0,56000,MIS
+Implantes,ISC740,"Implante Semi Cónico M4",74000,0,74000,MIS
+Implantes,IS820,"Implante Seven",82000,0,82000,MIS
+Implantes,ISX820,"Implante Seven XD",82000,0,82000,MIS
+Componentes,PTR313,"Pilar Titanio recto",31320,0,31320,MIS
+Componentes,PA313,"Pilar anatómico",31320,0,31320,MIS
+Componentes,PDB313,"Pilar de bola",31320,0,31320,MIS
+Componentes,PAD549,"Pilar angulado de bola",54900,0,54900,MIS
+Componentes,DMH243,"Double Metal Housing",24300,0,24300,MIS
+Componentes,OE720,"OT Equator",72000,0,72000,MIS
+Componentes,PTA396,"Pilar Titanio Angulado",39600,0,39600,MIS
+Componentes,PTR396,"Pilar Titanio Recto Estético",39600,0,39600,MIS
+Componentes,PDC189,"Pilar de Cicatrización",18900,0,18900,MIS
+Componentes,T243,"Transfer",24300,0,24300,MIS
+Componentes,UC225,"Ucla calcinable",22500,0,22500,MIS
+Componentes,U313,"Ucla Cromo-Cobalto",31320,0,31320,MIS
+Componentes,TB242,"Ti Base",24210,0,24210,MIS
+Componentes,CTB711,"Calcinable Ti Base",7110,0,7110,MIS
+Componentes,PP234,"Provisorio Plástico",23400,0,23400,MIS
+Componentes,PT324,"Provisorio Titanio",32400,0,32400,MIS
+Componentes,A131,"Análogo",13140,0,13140,MIS
+Componentes,AD225,"Análogo Digital",22500,0,22500,MIS
+Componentes,SP313,"Scan Post",31320,0,31320,MIS
+Componentes,EB247,"Ez Base",24750,0,24750,MIS
+Componentes,TP149,"Tornillo Protésico",14900,0,14900,MIS
+Componentes,PTR473,"Pilar Titanio recto",47300,0,47300,MIS
+Componentes,PTA775,"Pilar Titanio angulado",77500,0,77500,MIS
+Componentes,T316,"Transfer",31600,0,31600,MIS
+Componentes,CP278,"Cilindro plástico",27800,0,27800,MIS
+Componentes,A194,"Análogo",19400,0,19400,MIS
+Componentes,PTT341,"Pilar Temporal Titanio",34100,0,34100,MIS
+Componentes,TDC286,"Tapa de Cicatrización",28600,0,28600,MIS
+Componentes,AD250,"Análogo Digital",25000,0,25000,MIS
+Componentes,SP355,"Scan Post",35500,0,35500,MIS
+Componentes,CC273,"Cad Cam",27300,0,27300,MIS
+Componentes,TP162,"Tornillo Protésico",16200,0,16200,MIS
+Implantes,IC849,"Implante C1",84900,0,84900,MIS
+Implantes,IC849,"Implante C1B",84900,0,84900,MIS
+Implantes,IC849,"Implante C1XD",84900,0,84900,MIS
+Implantes,ICL789,"Implante Cónico Lance",78900,0,78900,MIS
+Componentes,PTR313,"Pilar Ti recto",31320,0,31320,MIS
+Componentes,TB269,"Ti Base",26910,0,26910,MIS
+Componentes,PTA396,"Pilar Ti angulado",39600,0,39600,MIS
+Componentes,PTE396,"Pilar Ti estético",39600,0,39600,MIS
+Componentes,PDC189,"Pilar de cicatrización",18900,0,18900,MIS
+Componentes,PDT324,"Provisorio de titanio",32400,0,32400,MIS
+Componentes,EB269,"Ez Base",26910,0,26910,MIS
+Componentes,AD225,"Análogo digital",22500,0,22500,MIS
+Componentes,TP149,"Tronillo Protesico",14900,0,14900,MIS
+Membranas,BRC1525,"Bone regeneration collagen membrane 15x25",92000,0,92000,MIS
+Membranas,BRC2030,"Bone regeneration collagen membrane 20x30",101000,0,101000,MIS
+Biomateriales,BS4BS01,"4bone synthetic bone graft 0.5cc",55000,0,55000,MIS
+Biomateriales,BS4BS1S,"4bone synthetic bone graft 1cc",79000,0,79000,MIS
+Biomateriales,NCR423005,"Mineralized cortical/cancellous particulate - jar de 0.5 cc",65000,0,65000,MIS
+Biomateriales,NCR423010,"Mineralized cortical/cancellous particulate - jar de 1 cc",89900,0,89900,MIS
+Membranas,NCR462012,"Matrix ND 1X2cm 1cm x 2 cm",108000,0,108000,MIS
+Membranas,NCR462014,"Matrix ND 1X4 cm 1cm x 4 cm",161000,0,161000,MIS
+Biomateriales,NCR423105,"Dental Fix Min Cort Particulate CRT",50900,0,50900,MIS
+Biomateriales,NCR423110,"Dental Fix Min Cort Particulate CRT",69500,0,69500,MIS
+Biomateriales,GENMIX075,"INJERTO OSEO BOVINO GENMIX 0,75 (925.S.0,75)",38900,0,38900,MIS
+Biomateriales,ORTHOG001,"Injerto Particulado 0.5 cc (946.G.25.0,5)",39500,0,39500,MIS
+Biomateriales,ORTHOG002,"Injerto Particulado 1 cc (946.G.50.1)",62900,0,62900,MIS
+Biomateriales,OXB0125,"OSSIX Bone OXB0125",60000,0,60000,MIS
+Biomateriales,OXB0250,"OSSIX Bone OXB0250",84000,0,84000,MIS
+Biomateriales,OXB0500,"OSSIX Bone OXB0500",107000,0,107000,MIS
+Membranas,OXP1525,"Ossix Plus OXP1525",60000,0,60000,MIS
+Membranas,OXP2530,"Ossix Plus OXP2530",84000,0,84000,MIS
+Membranas,OXP3040,"Ossix Plus OXP3040",107000,0,107000,MIS
+Membranas,OXV1012,"Ossix Volumax OXV1012",60000,0,60000,MIS
+Membranas,OXV1040,"Ossix Volumax OXV1040",102000,0,102000,MIS
+Membranas,OXV1525,"Ossix Volumax OXV1525",84000,0,84000,MIS
+Membranas,OXV2530,"Ossix Volumax OXV2530",107000,0,107000,MIS
