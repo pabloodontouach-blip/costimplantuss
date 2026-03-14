@@ -3,6 +3,7 @@ import pandas as pd
 from fpdf import FPDF
 from datetime import datetime
 import os
+import json
 
 # 1. CONFIGURACIÓN E IDENTIDAD VISUAL
 st.set_page_config(page_title="Costimplant USS", layout="wide")
@@ -25,13 +26,11 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# 2. CARGA DE DATOS BLINDADA
+# 2. CARGA DE DATOS Y ARCHIVOS
 @st.cache_data
 def load_data():
     try:
-        # Carga del archivo, priorizando codificación utf-8-sig para caracteres especiales
         data = pd.read_csv('base_datos_costos_uss_valdivia.csv', encoding='utf-8-sig')
-        # Forzado de columnas para evitar KeyError
         data.columns = ['Categoría', 'Código', 'Descripción', 'Precio Clínica', 'Lab', 'Precio Total', 'Proveedor']
         data['Proveedor'] = data['Proveedor'].astype(str).str.strip()
         data['Categoría'] = data['Categoría'].astype(str).str.strip()
@@ -42,6 +41,7 @@ def load_data():
 
 df = load_data()
 HISTORIAL_FILE = 'historial_pacientes.csv'
+PLANTILLAS_FILE = 'plantillas.json'
 
 def guardar_en_historial(datos):
     if not os.path.isfile(HISTORIAL_FILE):
@@ -50,31 +50,47 @@ def guardar_en_historial(datos):
         df_hist = pd.read_csv(HISTORIAL_FILE)
         pd.concat([df_hist, pd.DataFrame([datos])], ignore_index=True).to_csv(HISTORIAL_FILE, index=False, encoding='utf-8')
 
-# 3. FUNCIÓN GENERAR PDF (CORREGIDA PARA ERRORES DE CODIFICACIÓN)
+def cargar_plantillas():
+    if os.path.exists(PLANTILLAS_FILE):
+        try:
+            with open(PLANTILLAS_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except: return {}
+    return {}
+
+def guardar_plantilla(nombre, carrito):
+    plantillas = cargar_plantillas()
+    plantillas[nombre] = carrito
+    with open(PLANTILLAS_FILE, 'w', encoding='utf-8') as f:
+        json.dump(plantillas, f, ensure_ascii=False, indent=4)
+
+# FUNCIÓN DE LIMPIEZA (CALLBACK)
+def limpiar_todo():
+    st.session_state.carrito = []
+    st.session_state.paciente_n = ""
+    st.session_state.paciente_r = ""
+    st.session_state.paciente_d = ""
+    st.session_state.paciente_o = ""
+
+# 3. FUNCIÓN GENERAR PDF
 def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     pdf = FPDF()
     pdf.add_page()
     
-    # Función interna para limpiar caracteres no soportados por FPDF
     def limpiar_texto(texto):
         return str(texto).encode('latin-1', 'replace').decode('latin-1')
     
-    # MARCA DE AGUA
     pdf.set_font("Arial", 'B', 16)
-    pdf.set_text_color(225, 225, 225) # Gris muy claro
+    pdf.set_text_color(225, 225, 225)
     pdf.text(12, 140, "DOCUMENTO NO OFICIAL DE LA UNIVERSIDAD SAN SEBASTIAN")
-    
-    # Restablecemos la posición para el encabezado
     pdf.set_y(20)
     
-    # Encabezado (Sin Logo)
     pdf.set_font("Arial", 'B', 15)
     pdf.set_text_color(0, 51, 102) 
     pdf.cell(200, 10, txt="PLANIFICACION DE COSTOS DE IMPLANTES", ln=True, align='C')
     pdf.cell(200, 8, txt="HERRAMIENTA DE APOYO CLINICO", ln=True, align='C')
     
-    # Información del Paciente
-    pdf.ln(10)
+    pdf.ln(8)
     pdf.set_font("Arial", 'B', 10)
     pdf.set_text_color(0, 0, 0)
     pdf.cell(100, 6, txt=limpiar_texto(f"PACIENTE: {paciente.upper()}"))
@@ -83,7 +99,6 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     pdf.cell(90, 6, txt=limpiar_texto(f"DOCTOR/ALUMNO: {doctor.upper()}"), ln=True, align='R')
     pdf.ln(8)
 
-    # Detalle de Costos por Proveedor
     for prov in resumen['Proveedor'].unique():
         pdf.set_font("Arial", 'B', 11)
         pdf.set_fill_color(0, 51, 102)
@@ -99,12 +114,20 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
         
         pdf.set_font("Arial", size=9)
         temp_df = resumen[resumen['Proveedor'] == prov]
+        subtotal_prov = 0
+        
         for _, row in temp_df.iterrows():
             desc_limpia = limpiar_texto(str(row['Descripción'])[:55])
             pdf.cell(100, 8, desc_limpia, 1)
             pdf.cell(15, 8, str(row['Cantidad']), 1, 0, 'C')
             pdf.cell(35, 8, f"${row['Precio Unitario']:,.0f}", 1, 0, 'C')
             pdf.cell(40, 8, f"${row['Subtotal']:,.0f}", 1, 1, 'R')
+            subtotal_prov += row['Subtotal']
+            
+        pdf.set_font("Arial", 'B', 9)
+        pdf.set_fill_color(240, 240, 240)
+        pdf.cell(150, 8, limpiar_texto(f"SUBTOTAL {prov.upper()}:"), 1, 0, 'R', True)
+        pdf.cell(40, 8, f"${subtotal_prov:,.0f}", 1, 1, 'R', True)
         pdf.ln(5)
 
     if obs:
@@ -114,19 +137,33 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
         pdf.multi_cell(190, 5, txt=limpiar_texto(obs), border=1)
         pdf.ln(5)
 
-    # Total Final
-    pdf.set_font("Arial", 'B', 12)
-    pdf.cell(150, 10, "TOTAL ESTIMADO:", 0, 0, 'R')
-    pdf.cell(40, 10, f"${t_total:,.0f}", 1, 1, 'R')
+    total_procedimientos = resumen[resumen['Proveedor'] == 'USS Valdivia']['Subtotal'].sum()
+    total_insumos = resumen[resumen['Proveedor'] != 'USS Valdivia']['Subtotal'].sum()
 
-    # TABLA PIE DE PÁGINA: INFORMACIÓN IMPORTANTE
-    pdf.ln(10)
+    pdf.ln(2)
+    pdf.set_font("Arial", 'B', 11)
+    pdf.set_fill_color(0, 51, 102)
+    pdf.set_text_color(255, 255, 255)
+    pdf.cell(190, 8, "RESUMEN FINAL DE COSTOS", 1, 1, 'C', True)
+    
+    pdf.set_text_color(0, 0, 0)
+    pdf.set_font("Arial", '', 10)
+    pdf.cell(150, 8, "Total Procedimientos (Clinica USS):", 1, 0, 'R')
+    pdf.cell(40, 8, f"${total_procedimientos:,.0f}", 1, 1, 'R')
+    
+    pdf.cell(150, 8, "Total Insumos y Biomateriales (Marcas):", 1, 0, 'R')
+    pdf.cell(40, 8, f"${total_insumos:,.0f}", 1, 1, 'R')
+    
+    pdf.set_font("Arial", 'B', 12)
+    pdf.set_fill_color(255, 220, 100)
+    pdf.cell(150, 10, "GRAN TOTAL ESTIMADO:", 1, 0, 'R')
+    pdf.cell(40, 10, f"${t_total:,.0f}", 1, 1, 'R', True)
+
+    pdf.ln(8)
     pdf.set_fill_color(240, 240, 240)
     pdf.set_font("Arial", 'B', 10)
     pdf.cell(190, 8, "INFORMACION IMPORTANTE:", 1, 1, 'L', True)
     pdf.set_font("Arial", size=8)
-    
-    # Se cambiaron los puntos de viñeta por guiones normales para evitar el error latin-1
     msg = (
         "- Este documento presenta los aranceles referenciales de insumos y procedimientos.\n"
         "- No es un documento oficial de la Universidad San Sebastian.\n"
@@ -135,6 +172,7 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     pdf.multi_cell(190, 5, txt=msg, border=1)
 
     return pdf.output(dest='S').encode('latin-1')
+
 # 4. INTERFAZ DE USUARIO
 st.title("Costimplant USS")
 
@@ -142,12 +180,48 @@ menu = st.sidebar.radio("Navegación", ["Crear Presupuesto", "Historial de Pacie
 
 if menu == "Crear Presupuesto":
     st.sidebar.subheader("Datos del Paciente")
-    n_p = st.sidebar.text_input("Nombre")
-    r_p = st.sidebar.text_input("RUT")
-    d_p = st.sidebar.text_input("Doctor/Alumno")
-    obs_p = st.sidebar.text_area("Observaciones")
+    
+    # Manejo del estado para limpiar los campos
+    if 'paciente_n' not in st.session_state: st.session_state.paciente_n = ""
+    if 'paciente_r' not in st.session_state: st.session_state.paciente_r = ""
+    if 'paciente_d' not in st.session_state: st.session_state.paciente_d = ""
+    if 'paciente_o' not in st.session_state: st.session_state.paciente_o = ""
+
+    n_p = st.sidebar.text_input("Nombre", key="paciente_n")
+    r_p = st.sidebar.text_input("RUT", key="paciente_r")
+    d_p = st.sidebar.text_input("Doctor/Alumno", key="paciente_d")
+    obs_p = st.sidebar.text_area("Observaciones", key="paciente_o")
 
     if 'carrito' not in st.session_state: st.session_state.carrito = []
+
+    # PLANTILLAS RÁPIDAS
+    st.header("⚡ Plantillas Rápidas")
+    plantillas_guardadas = cargar_plantillas()
+    
+    if plantillas_guardadas:
+        col_pl1, col_pl2, col_pl3 = st.columns([2, 1, 1])
+        with col_pl1:
+            plantilla_sel = st.selectbox("Seleccionar Plantilla:", ["-- Ninguna --"] + list(plantillas_guardadas.keys()))
+        with col_pl2:
+            st.write("")
+            if st.button("➕ Cargar Plantilla"):
+                if plantilla_sel != "-- Ninguna --":
+                    st.session_state.carrito.extend(plantillas_guardadas[plantilla_sel])
+                    st.success(f"Plantilla '{plantilla_sel}' agregada al carrito.")
+                    st.rerun()
+        with col_pl3:
+            st.write("")
+            if st.button("🗑️ Borrar Plantilla"):
+                if plantilla_sel != "-- Ninguna --":
+                    del plantillas_guardadas[plantilla_sel]
+                    with open(PLANTILLAS_FILE, 'w', encoding='utf-8') as f:
+                        json.dump(plantillas_guardadas, f, ensure_ascii=False, indent=4)
+                    st.warning(f"Plantilla '{plantilla_sel}' eliminada.")
+                    st.rerun()
+    else:
+        st.info("No tienes plantillas guardadas. Arma tu presupuesto abajo y guárdalo al final de la página.")
+        
+    st.markdown("---")
 
     # PASO 1: USS VALDIVIA
     st.header("1° Seleccionar Procedimiento Clínico (USS)")
@@ -194,6 +268,7 @@ if menu == "Crear Presupuesto":
     if st.session_state.carrito:
         st.markdown("---")
         st.subheader("Resumen del Presupuesto")
+        
         for i, item in enumerate(st.session_state.carrito):
             r1, r2, r3, r4, r5 = st.columns([3, 1, 1, 1, 1])
             r1.write(f"**{item['Descripción']}** ({item['Proveedor']})")
@@ -215,14 +290,47 @@ if menu == "Crear Presupuesto":
 
         res_df = pd.DataFrame(st.session_state.carrito)
         total = res_df['Subtotal'].sum()
-        st.subheader(f"TOTAL ESTIMADO: ${total:,.0f}")
-
-        if st.button("💾 Guardar en Historial"):
-            guardar_en_historial({"Fecha": datetime.now().strftime("%d/%m/%Y"), "Paciente": n_p, "Total": total})
-            st.success("Presupuesto guardado.")
         
-        pdf_b = generar_pdf(res_df, total, n_p, r_p, d_p, obs_p)
-        st.download_button("📥 Descargar PDF Informativo", pdf_b, f"Presupuesto_{n_p}.pdf")
+        tot_proc = res_df[res_df['Proveedor'] == 'USS Valdivia']['Subtotal'].sum()
+        tot_insu = res_df[res_df['Proveedor'] != 'USS Valdivia']['Subtotal'].sum()
+        
+        st.write(f"**Total Procedimientos USS:** ${tot_proc:,.0f}")
+        st.write(f"**Total Insumos:** ${tot_insu:,.0f}")
+        st.subheader(f"GRAN TOTAL ESTIMADO: ${total:,.0f}")
+
+        # GUARDAR COMO PLANTILLA
+        st.markdown("---")
+        st.subheader("💾 Guardar como Plantilla")
+        col_nt, col_bt = st.columns([3, 1])
+        with col_nt:
+            nombre_nueva_plantilla = st.text_input("Nombre de la plantilla (ej. 'Implante Unitario'):")
+        with col_bt:
+            st.write("")
+            if st.button("Guardar Plantilla"):
+                if nombre_nueva_plantilla:
+                    guardar_plantilla(nombre_nueva_plantilla, st.session_state.carrito)
+                    st.success(f"Plantilla '{nombre_nueva_plantilla}' guardada con éxito.")
+                    st.rerun()
+                else:
+                    st.warning("Por favor, ingresa un nombre para la plantilla.")
+        
+        st.markdown("---")
+
+        # --- BOTÓN CON CALLBACK PARA REINICIAR Y LIMPIAR TODO ---
+        st.write("¿Deseas empezar desde cero o terminaste con este paciente?")
+        st.button("🔄 Ingresar Nuevo Presupuesto (Borrar Todo)", on_click=limpiar_todo)
+
+        st.write("") # Espaciador
+
+        # --- BOTONES DE DESCARGA Y GUARDADO ---
+        col_fin1, col_fin2 = st.columns(2)
+        with col_fin1:
+            if st.button("💾 Guardar en Historial"):
+                guardar_en_historial({"Fecha": datetime.now().strftime("%d/%m/%Y"), "Paciente": n_p, "Total": total})
+                st.success("Presupuesto guardado en el historial.")
+        with col_fin2:
+            pdf_b = generar_pdf(res_df, total, n_p, r_p, d_p, obs_p)
+            st.download_button("📥 Descargar PDF Informativo", pdf_b, f"Presupuesto_{n_p}.pdf")
 
 else:
     st.header("Historial de Pacientes")
