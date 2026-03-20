@@ -80,16 +80,19 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     def limpiar_texto(texto):
         return str(texto).encode('latin-1', 'replace').decode('latin-1')
     
+    # Marca de Agua
     pdf.set_font("Arial", 'B', 16)
     pdf.set_text_color(225, 225, 225)
     pdf.text(12, 140, "DOCUMENTO NO OFICIAL DE LA UNIVERSIDAD SAN SEBASTIAN")
     pdf.set_y(20)
     
+    # Encabezado
     pdf.set_font("Arial", 'B', 15)
     pdf.set_text_color(0, 51, 102) 
     pdf.cell(200, 10, txt="PLANIFICACION DE COSTOS DE IMPLANTES", ln=True, align='C')
     pdf.cell(200, 8, txt="HERRAMIENTA DE APOYO CLINICO", ln=True, align='C')
     
+    # Datos Paciente
     pdf.ln(8)
     pdf.set_font("Arial", 'B', 10)
     pdf.set_text_color(0, 0, 0)
@@ -140,6 +143,7 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     total_procedimientos = resumen[resumen['Proveedor'] == 'USS Valdivia']['Subtotal'].sum()
     total_insumos = resumen[resumen['Proveedor'] != 'USS Valdivia']['Subtotal'].sum()
 
+    # Resumen y Totales
     pdf.ln(2)
     pdf.set_font("Arial", 'B', 11)
     pdf.set_fill_color(0, 51, 102)
@@ -159,6 +163,7 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     pdf.cell(150, 10, "GRAN TOTAL ESTIMADO:", 1, 0, 'R')
     pdf.cell(40, 10, f"${t_total:,.0f}", 1, 1, 'R', True)
 
+    # Nota Legal (ACTUALIZADA)
     pdf.ln(8)
     pdf.set_fill_color(240, 240, 240)
     pdf.set_font("Arial", 'B', 10)
@@ -166,6 +171,8 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     pdf.set_font("Arial", size=8)
     msg = (
         "- Este documento presenta los aranceles referenciales de insumos y procedimientos.\n"
+        "- Los valores propuestos en este documento son una aproximacion al costo final del tratamiento.\n"
+        "- El valor final dependera de la aprobacion del plan de tratamiento propuesto por el estudiante al docente.\n"
         "- No es un documento oficial de la Universidad San Sebastian.\n"
         "- Valores sujetos a cambio una vez que se corroboren tanto en caja del centro de salud, como por la marca de insumos."
     )
