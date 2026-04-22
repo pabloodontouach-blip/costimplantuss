@@ -210,284 +210,342 @@ Protesis,118.325,"CilCalcBaseDeTi(tornNeo), Pol,4.5X4",18072.0,0,18072.0,Neodent
 Protesis,117.023,"Tornillo Cobertura Implante Zirconio, Ti",12408.0,0,12408.0,Neodent
 Protesis,106.233,"Cicatrizador p/ Imp Zirconio, Zr, 3.75X1.5",31031.0,0,31031.0,Neodent
 Protesis,105.001,Conexion Hexagonal Corta Carraca StSt,18808.0,0,18808.0,Neodent
-Acciones preventivas,AP002,"Instrucción de higiene oral, técnica de cepillado",12700.0,0,12700.0,USS Valdivia
-Cirugía bucal,CB001,Exodoncia simple,11900.0,0,11900.0,USS Valdivia
-Cirugía bucal,CB002,Exodoncia a colgajo o semi-incluida,29500.0,0,29500.0,USS Valdivia
-Cirugía bucal,CB003,Exodoncia diente incluido,41200.0,0,41200.0,USS Valdivia
-Cirugía bucal,CB005,Exodoncia 4 terceros molares incluidos,152800.0,0,152800.0,USS Valdivia
-Cirugía bucal,CB007,Radectomía u odontosección,33500.0,0,33500.0,USS Valdivia
-Cirugía bucal,CB008,Tratamiento de complicación postquirúrgica (alveolitis húmeda o seca),33100.0,0,33100.0,USS Valdivia
-Cirugía bucal,CB011,Extirpación de mucoceles,58900.0,0,58900.0,USS Valdivia
-Cirugía bucal,CB012,Cirugía apical y pararradicular con o sin relleno a retro (incisivos y caninos),66900.0,0,66900.0,USS Valdivia
-Cirugía bucal,CB013,Cirugía apical y pararradicular con o sin relleno a retro (premolares y molares),83400.0,0,83400.0,USS Valdivia
-Cirugía bucal,CB015,"Resección o plastía de frenillos, bridas, sinequias o cirugía preprotésica",58900.0,0,58900.0,USS Valdivia
-Cirugía bucal,CB016,Biopsia de mucosa,53600.0,0,53600.0,USS Valdivia
-Cirugía bucal,CB017,Biopsia de hueso,18200.0,0,18200.0,USS Valdivia
-Cirugía bucal,CB018,Enucleación de quiste o tumor simple,94100.0,0,94100.0,USS Valdivia
-Cirugía de Implantes,CI001,Implante oseointegrado,58900.0,0,58900.0,USS Valdivia
-Cirugía de Implantes,CI002,Reconstrucción de rebordes con homo o heteroinjertos,176300.0,0,176300.0,USS Valdivia
-Cirugía de Implantes,CI003,Elevación seno maxilar,235000.0,0,235000.0,USS Valdivia
-Cirugía de Implantes,CI004,Control de implantes,0.0,0,0.0,USS Valdivia
-Cirugía de Implantes,CI005,Conexión de implantes,29500.0,0,29500.0,USS Valdivia
-Cirugía de Implantes,CI006,Regeneración tisular guiada,88200.0,0,88200.0,USS Valdivia
-Cirugía de Implantes,CI007,Guía quirurgica acrilica transparente (incluye ordenación),7500.0,0,7500.0,USS Valdivia
-Cirugía de Implantes,CI008,Guía quirurgica impresa exacta total o hemiarcada (no incluye diseño ni aditamen),10500.0,0,10500.0,USS Valdivia
-Cirugía de Implantes,CI009,Guía quirúrgica acrílica transparente (por sextante),11000.0,0,11000.0,USS Valdivia
-Endodoncia,ED001,Endodoncia diente anterior,36000.0,0,36000.0,USS Valdivia
-Endodoncia,ED002,Endodoncia Premolar,48000.0,0,48000.0,USS Valdivia
-Endodoncia,ED005,Endodoncia Molar inferior,60000.0,0,60000.0,USS Valdivia
-Endodoncia,ED007,Retratamiento Diente Anterior,50000.0,0,50000.0,USS Valdivia
-Endodoncia,ED008,Retratamiento Premolar,58900.0,0,58900.0,USS Valdivia
-Endodoncia,ED009,Retratamiento Molar inferior,72000.0,0,72000.0,USS Valdivia
-Endodoncia,ED013,Sellado perforaciones y/o falsas vias,23600.0,0,23600.0,USS Valdivia
-Endodoncia,ED014,Inducción al cierre apical por sesión,26300.0,0,26300.0,USS Valdivia
-Endodoncia,ED015,Recubrimiento pulpar directo o indirecto pieza permanente,13100.0,0,13100.0,USS Valdivia
-Estetica orofacial,EOF01,Diagnóstico,5800.0,0,5800.0,USS Valdivia
-Estetica orofacial,EOF02,Control de procedimiento estético,5800.0,0,5800.0,USS Valdivia
-Estetica orofacial,EOF03,Peeling facial,34300.0,0,34300.0,USS Valdivia
-Estetica orofacial,EOF04,PRP,68500.0,0,68500.0,USS Valdivia
-Estetica orofacial,EOF05,Mesoterapia,41200.0,0,41200.0,USS Valdivia
-Estetica orofacial,EOF06,Toxina Botulínica,114100.0,0,114100.0,USS Valdivia
-Estetica orofacial,EOF07,Hilos Revitalizantes (5 unidades),171100.0,0,171100.0,USS Valdivia
-Estetica orofacial,EOF08,Implantes Faciales I,114100.0,0,114100.0,USS Valdivia
-Estetica orofacial,EOF09,Implantes Faciales II,182500.0,0,182500.0,USS Valdivia
-Estetica orofacial,EOF10,Hilos 10 unidades,216700.0,0,216700.0,USS Valdivia
-Estetica orofacial,EOF11,Rinomodelación,114100.0,0,114100.0,USS Valdivia
-Estetica orofacial,EOF12,Aplicacion de hialuronidasa externo,57100.0,0,57100.0,USS Valdivia
-Operatoria dental,OO001,Restauración composite fotocurado simple anterior o posterior,16600.0,0,16600.0,USS Valdivia
-Operatoria dental,OO002,Restauración composite fotocurado compuesta anterior o posterior,18900.0,0,18900.0,USS Valdivia
-Operatoria dental,OO003,Restauración composite sin cavidad clase V,11900.0,0,11900.0,USS Valdivia
-Operatoria dental,OO004,Carilla Directa,29500.0,0,29500.0,USS Valdivia
-Operatoria dental,OO005,Carilla Indirecta porcelana,101300.0,0,101300.0,USS Valdivia
-Operatoria dental,OO008,Obturación de vidrio ionómero,14200.0,0,14200.0,USS Valdivia
-Operatoria dental,OO009,Aplicación de sellante diente definitivo o temporal,14200.0,0,14200.0,USS Valdivia
-Operatoria dental,OO010,Incrustación cerámica (inlay-onlay),118200.0,0,118200.0,USS Valdivia
-Operatoria dental,OO011,Incrustación cerómero (inlay onlay) o carilla indirecta,77900.0,0,77900.0,USS Valdivia
-Pabellón,PB006,Toma de muestra PRF/I-PRF,11900.0,0,11900.0,USS Valdivia
-Pabellón,PB007,Derecho de pabellón Cirugías de Baja Complejidad,53500.0,0,53500.0,USS Valdivia
-Pabellón,PB008,Derecho de pabellón Cirugías de Mediana Complejidad,83100.0,0,83100.0,USS Valdivia
-Pabellón,PB009,Derecho de pabellón de Cirugías de Alta Complejidad,118600.0,0,118600.0,USS Valdivia
-Pabellón,PB013,Derecho a pabellon de Cirugía Múltiple,154100.0,0,154100.0,USS Valdivia
-Periodoncia,PD002,Pulido radicular por sextante,17700.0,0,17700.0,USS Valdivia
-Periodoncia,PD003,Destartraje supragingival por arcada,17700.0,0,17700.0,USS Valdivia
-Periodoncia,PD004,Destartraje subgingival por arcada,17700.0,0,17700.0,USS Valdivia
-Periodoncia,PD007,Tratamiento de hipersensibilidad dentaria post-terapia por sesión,35400.0,0,35400.0,USS Valdivia
-Periodoncia,PD008,"Cirugías mucogingivales, ancho biológico, gingivectomía o colgajo periodontal",17700.0,0,17700.0,USS Valdivia
-Periodoncia,PD020,Urgencia periodontal,11500.0,0,11500.0,USS Valdivia
-Periodoncia,PD023,Profilaxis (Pulido coronario),9600.0,0,9600.0,USS Valdivia
-Periodoncia,PD026,Tratamiento de periodontitis leve,51400.0,0,51400.0,USS Valdivia
-Periodoncia,PD027,Tratamiento de periodontitis moderado,68500.0,0,68500.0,USS Valdivia
-Periodoncia,PD028,Tratamiento de periodontitis severas,91300.0,0,91300.0,USS Valdivia
-Periodoncia,PD032,Terapia periodontal de mantencion,28600.0,0,28600.0,USS Valdivia
-Periodoncia,PD033,Desgaste selectivo,9600.0,0,9600.0,USS Valdivia
-Periodoncia,PD035,Alargamiento coronario unitario,28600.0,0,28600.0,USS Valdivia
-Periodoncia,PD036,Colgajo periodontal por grupo,40000.0,0,40000.0,USS Valdivia
-Periodoncia,PD037,Cirugia mucogingival por grupo,74200.0,0,74200.0,USS Valdivia
-Periodoncia,PD038,Toma de injerto conjuntivo,45700.0,0,45700.0,USS Valdivia
-Periodoncia,PD039,Toma de injerto gingival libre,34300.0,0,34300.0,USS Valdivia
-Periodoncia,PD040,Cuña distal,28600.0,0,28600.0,USS Valdivia
-Periodoncia,PD041,Frenectomia simple,34300.0,0,34300.0,USS Valdivia
-Periodoncia,PD043,Gingivectomia unitaria,28600.0,0,28600.0,USS Valdivia
-Periodoncia,PD044,Gingivectomia por grupo,57100.0,0,57100.0,USS Valdivia
-Periodoncia,PD048,Control postquirurgico (sesion),0.0,0,0.0,USS Valdivia
-Periodoncia,PD049,Regeneración ósea,74200.0,0,74200.0,USS Valdivia
-Prótesis fija,PF004,Perno fibra de vidrio o preformado,29500.0,0,29500.0,USS Valdivia
-Prótesis fija,PF005,Provisorio de acrílico (clínica),15000.0,0,15000.0,USS Valdivia
-Prótesis fija,PF006,Corona provisoria de acrílico o policarbonato (laboratorio),28700.0,0,28700.0,USS Valdivia
-Prótesis fija,PF008,Corona libre de metal (porcelana pura o solo zirconio o feldespato),130700.0,0,130700.0,USS Valdivia
-Prótesis fija,PF009,Corona cerómero,63500.0,0,63500.0,USS Valdivia
-Prótesis fija,PF010,Incrustación metálica como inserción PFP,63600.0,0,63600.0,USS Valdivia
-Prótesis fija,PF011,Corona inserción PFP porcelana sobre metal,102900.0,0,102900.0,USS Valdivia
-Prótesis fija,PF012,Corona intermediaria PFP porcelana sobre metal,85400.0,0,85400.0,USS Valdivia
-Prótesis fija,PF013,Corona insercion PFP libre de metal,103600.0,0,103600.0,USS Valdivia
-Prótesis fija,PF014,Corona intermediaria PFP libre de metal,103600.0,0,103600.0,USS Valdivia
-Prótesis fija,PF015,Inserción para puente adhesivo Maryland,54900.0,0,54900.0,USS Valdivia
-Prótesis fija,PF017,Retiro de espiga muñón colada,11900.0,0,11900.0,USS Valdivia
-Prótesis fija,PF018,Retiro de espiga muñón preformada,17700.0,0,17700.0,USS Valdivia
-Prótesis fija,PF019,Retiro coronas antiguas (por inserción),17700.0,0,17700.0,USS Valdivia
-Prótesis fija,PF020,Recementación corona sin correciones,17700.0,0,17700.0,USS Valdivia
-Prótesis fija,PF023,Soporte radicular (sochapa),43600.0,0,43600.0,USS Valdivia
-Prótesis fija,PF024,Hombro cerámico,20900.0,0,20900.0,USS Valdivia
-Prótesis fija,PF026,Intermediario para puente adhesivo Maryland,59700.0,0,59700.0,USS Valdivia
-Prótesis fija,PF027,Fresado palatino o rielera proximal (c/u),22100.0,0,22100.0,USS Valdivia
-Prótesis fija,PF028,Corona de sustitución,107600.0,0,107600.0,USS Valdivia
-Prótesis fija,PF030,Puente PFP Porcelana sobre metal,240400.0,0,240400.0,USS Valdivia
-Prótesis fija,PF031,Corona Libre de Metal (Disilicato),118600.0,0,118600.0,USS Valdivia
-Prótesis fija,PF032,Endocrown,95400.0,0,95400.0,USS Valdivia
-Prótesis fija,PF033,Corona en duralay,14400.0,0,14400.0,USS Valdivia
-Prótesis fija,PF034,MOCK UP,29700.0,0,29700.0,USS Valdivia
-Prestaciones dentales grales,PG001,"Examen inicial, diagnóstico y plan de tratamiento.",0.0,0,0.0,USS Valdivia
-Prestaciones dentales grales,PG009,Montaje en articulador,6000.0,0,6000.0,USS Valdivia
-Prestaciones dentales grales,PG010,Encerado diagnóstico por diente,9500.0,0,9500.0,USS Valdivia
-Prestaciones dentales grales,PG011,Control odontopediatría,0.0,0,0.0,USS Valdivia
-Prestaciones dentales grales,PG012,Encía artificial por sector,3600.0,0,3600.0,USS Valdivia
-Prótesis removible,PR001,Prótesis removible total acrílica superior o inferior,77100.0,0,77100.0,USS Valdivia
-Prótesis removible,PR003,Prótesis removible parcial acrílica superior o inferior,87700.0,0,87700.0,USS Valdivia
-Prótesis removible,PR004,Prótesis removible parcial metálica superior o inferior,162200.0,0,162200.0,USS Valdivia
-Prótesis removible,PR006,Rebasado acrílico de prótesis,73500.0,0,73500.0,USS Valdivia
-Prótesis removible,PR007,Acondicionamiento de tejidos.,6500.0,0,6500.0,USS Valdivia
-Prótesis removible,PR011,Atache o broche,4000.0,0,4000.0,USS Valdivia
-Prótesis removible,PR014,Plano estabilizador con frente estético,35500.0,0,35500.0,USS Valdivia
-Prótesis removible,PR015,Cubeta Individual,3700.0,0,3700.0,USS Valdivia
-Prótesis removible,PR017,Rodete,4500.0,0,4500.0,USS Valdivia
-Prótesis removible,PR018,Ordenación Total,5600.0,0,5600.0,USS Valdivia
-Prótesis removible,PR019,Ordenación Parcial,3600.0,0,3600.0,USS Valdivia
-Prótesis removible,PR020,Rebasado acrílico de prótesis directo,29500.0,0,29500.0,USS Valdivia
-Prótesis removible,PR021,Refuerzo metálico para prótesis removible,11300.0,0,11300.0,USS Valdivia
-Prótesis removible,PR023,Prótesis inmediata superior o inferior,8400.0,0,8400.0,USS Valdivia
-Prótesis removible,PR026,Modelo de diagnóstico,4000.0,0,4000.0,USS Valdivia
-Prótesis removible,PR027,Modelo de diagnóstico con máscara gingival,4000.0,0,4000.0,USS Valdivia
-Radiología,RD001,Radiografía retroalveolar,2800.0,0,2800.0,USS Valdivia
-Radiología,RD002,Radiografía retroalveolar total,16600.0,0,16600.0,USS Valdivia
-Radiología,RD003,Radiografía oclusal,4600.0,0,4600.0,USS Valdivia
-Radiología,RD004,Radiografía bite wing unilateral (2 películas),5800.0,0,5800.0,USS Valdivia
-Radiología,RD006,Radiografía bite wing bilateral,6000.0,0,6000.0,USS Valdivia
-Radiología,RD008,Radiografías para Endodoncia (3Rx),4800.0,0,4800.0,USS Valdivia
-Radiología,RD021,Radiografías para Endodoncia (5Rx),6000.0,0,6000.0,USS Valdivia
-Rehabilitacion sobre implante,RI001,Pilar muñón sobre implantes,97000.0,0,97000.0,USS Valdivia
-Rehabilitacion sobre implante,RI002,Corona temporal sobre implantes,23000.0,0,23000.0,USS Valdivia
-Rehabilitacion sobre implante,RI004,Intermediario prótesis fija sobre implantes,33700.0,0,33700.0,USS Valdivia
-Rehabilitacion sobre implante,RI009,Instalación de broche (o'ring),61900.0,0,61900.0,USS Valdivia
-Rehabilitacion sobre implante,RI012,Recambio de o'ring o clip barra,11900.0,0,11900.0,USS Valdivia
-Rehabilitacion sobre implante,RI013,Cambio de tornillos protésicos,23600.0,0,23600.0,USS Valdivia
-Rehabilitacion sobre implante,RI014,Anclaje de precisión sobre implantes,67400.0,0,67400.0,USS Valdivia
-Rehabilitacion sobre implante,RI015,Prótesis tipo admodum(con barra de titanio)hasta 4 implantes,722600.0,0,722600.0,USS Valdivia
-Rehabilitacion sobre implante,RI016,Prótesis tipo admodum(con barra de titanio)hasta 6 implantes,722600.0,0,722600.0,USS Valdivia
-Rehabilitacion sobre implante,RI020,Corona Sobre implantes Atornillada/Cementada Zirconio,103600.0,0,103600.0,USS Valdivia
-Rehabilitacion sobre implante,RI021,Corona Sobre implantes Cementada (Disilicato),103600.0,0,103600.0,USS Valdivia
-Rehabilitacion sobre implante,RI022,Intermediario prótesis fija sobre implantes (Zirconio monolitico),87300.0,0,87300.0,USS Valdivia
-Rehabilitacion sobre implante,RI023,Intermediario prótesis fija sobre implantes (disilicato Monolitico),87300.0,0,87300.0,USS Valdivia
-Rehabilitacion sobre implante,RI025,Prótesis total implantosoportada tipo admodum hasta 6 conex,907600.0,0,907600.0,USS Valdivia
-Rehabilitacion sobre implante,RI027,Prótesis total implantosoportada tipo bridge de Zirconio,907600.0,0,907600.0,USS Valdivia
-Rehabilitacion sobre implante,RI030,Prótesis Hibrida (o sobre peck),82400.0,0,82400.0,USS Valdivia
-Procedimiento,OTROS,Otros,0.0,0,0.0,USS Valdivia
-Componentes,SB001,Scanbody Neobiotech,0.0,0,35000.0,Neobiotech
-Componentes,SB002,Scanbody Neodent,0.0,0,35000.0,Neodent
-Biomateriales,LFN01,Oragraft Mineralizado Cortical 0.25cc,52000,0,52000,Lifenet/Viaossea
-Biomateriales,LFN02,Oragraft Mineralizado Cortical 0.5cc,65000,0,65000,Lifenet/Viaossea
-Biomateriales,LFN03,Oragraft Mineralizado Cortical 1.2cc,99000,0,99000,Lifenet/Viaossea
-Biomateriales,LFN04,Oragraft Mineralizado Cortical 2.5cc,169000,0,169000,Lifenet/Viaossea
-Biomateriales,LFN05,Oragraft Mineralizado Esponjoso 0.5cc,75000,0,75000,Lifenet/Viaossea
-Biomateriales,LFN06,Oragraft Mineralizado Esponjoso 1.0cc,99000,0,99000,Lifenet/Viaossea
-Biomateriales,LFN07,Oragraft Mineralizado Esponjoso 2.0cc,169000,0,169000,Lifenet/Viaossea
-Biomateriales,LFN08,Oragraft Mineralizado Mixto 50/50 0.5cc,85000,0,85000,Lifenet/Viaossea
-Biomateriales,LFN09,Oragraft Mineralizado Mixto 50/50 1.0cc,119000,0,119000,Lifenet/Viaossea
-Biomateriales,LFN10,Oragraft Mineralizado Mixto 50/50 2.0cc,180000,0,180000,Lifenet/Viaossea
-Biomateriales,LFN11,Oragraft Cortical Desmineralizado 0.25cc,60000,0,60000,Lifenet/Viaossea
-Biomateriales,LFN12,Oragraft Cortical Desmineralizado 0.5cc,75000,0,75000,Lifenet/Viaossea
-Biomateriales,LFN13,Oragraft Cortical Desmineralizado 1.2cc,110000,0,110000,Lifenet/Viaossea
-Biomateriales,LFN14,Oragraft Cortical Desmineralizado 2.5cc,180000,0,180000,Lifenet/Viaossea
-Biomateriales,LFN15,Oragraft Fibras Desmineralizadas 0.5cc,85000,0,85000,Lifenet/Viaossea
-Biomateriales,LFN16,Oragraft Fibras Desmineralizadas 1.0cc,119000,0,119000,Lifenet/Viaossea
-Biomateriales,LFN17,Oragraft Fibras Desmineralizadas 2.0cc,180000,0,180000,Lifenet/Viaossea
-Biomateriales,LFN18,Oragraft Cortical (100%) 0.5cc,120000,0,120000,Lifenet/Viaossea
-Biomateriales,LFN19,Oragraft Cortical (100%) 1.0cc,190000,0,190000,Lifenet/Viaossea
-Biomateriales,LFN20,Oragraft Cortical (100%) 2.5cc,340000,0,340000,Lifenet/Viaossea
-Membranas,LFN21,Oracell Membrana Dermis 1.0x1.0cm,69000,0,69000,Lifenet/Viaossea
-Membranas,LFN22,Oracell Membrana Dermis 1.5x2.0cm,99000,0,99000,Lifenet/Viaossea
-Membranas,LFN23,Oracell Membrana Dermis 1.0x4.0cm,129000,0,129000,Lifenet/Viaossea
-Membranas,LFN24,Oracell Membrana Dermis 2.0x4.0cm,159000,0,159000,Lifenet/Viaossea
-Membranas,LFN25,Oramatrix Membrana Placenta 10x10mm,99000,0,99000,Lifenet/Viaossea
-Membranas,LFN26,Oramatrix Membrana Placenta 15x20mm,195000,0,195000,Lifenet/Viaossea
-Membranas,LFN27,Oramatrix Membrana Placenta 20x30mm,290000,0,290000,Lifenet/Viaossea
-Biomateriales,LFN28,Bloque Iliaco Unicortical 10x15x8mm,290000,0,290000,Lifenet/Viaossea
-Biomateriales,LFN29,Bloque Iliaco Unicortical 10x25x8mm,350000,0,350000,Lifenet/Viaossea
-Biomateriales,LFN30,Bloque Iliaco Bicortical 15x20mm,595000,0,595000,Lifenet/Viaossea
-Biomateriales,LFN31,Bloque Iliaco Bicortical 15x30mm,659000,0,659000,Lifenet/Viaossea
-Biomateriales,LFN32,Bloque Iliaco Bicortical 20x40mm,749000,0,749000,Lifenet/Viaossea
-Biomateriales,LFN33,Cortical Plate Estructural 30x15x1mm,399000,0,399000,Lifenet/Viaossea
-Biomateriales,LFN34,Viaoss Porcino Mineralizado 0.5cc,55000,0,55000,Lifenet/Viaossea
-Biomateriales,LFN35,Viaoss Porcino Mineralizado 1.0cc,85000,0,85000,Lifenet/Viaossea
-Biomateriales,LFN36,Viaoss Porcino Mineralizado 2.5cc,125000,0,125000,Lifenet/Viaossea
-Membranas,LFN37,Viaflex Membrana Peritoneo 15x20mm,69000,0,69000,Lifenet/Viaossea
-Membranas,LFN38,Viaflex Membrana Peritoneo 20x30mm,95000,0,95000,Lifenet/Viaossea
-Membranas,LFN39,Viaflex Membrana Peritoneo 30x40mm,121000,0,121000,Lifenet/Viaossea
-Membranas,LFN40,Ossix Plus Membrana 15x25mm,105000,0,105000,Lifenet/Viaossea
-Membranas,LFN41,Ossix Plus Membrana 25x30mm,128000,0,128000,Lifenet/Viaossea
-Membranas,LFN42,Ossix Plus Membrana 30x40mm,134000,0,134000,Lifenet/Viaossea
-Membranas,LFN43,Ossix Volumax 10x12.5mm,79000,0,79000,Lifenet/Viaossea
-Membranas,LFN44,Ossix Volumax 15x25mm,105000,0,105000,Lifenet/Viaossea
-Membranas,LFN45,Ossix Volumax 25x30mm,134000,0,134000,Lifenet/Viaossea
-Biomateriales,LFN46,Ossix Bone Scaffold 0.125cc,79000,0,79000,Lifenet/Viaossea
-Biomateriales,LFN47,Ossix Bone Scaffold 0.25cc,105000,0,105000,Lifenet/Viaossea
-Biomateriales,LFN48,Ossix Bone Scaffold 0.5cc,134000,0,134000,Lifenet/Viaossea
-Biomateriales,LFN49,Salmoss HAPS 0.2gr,40460,0,40460,Lifenet/Viaossea
-Biomateriales,LFN50,Salmoss HAPS 0.5gr,52360,0,52360,Lifenet/Viaossea
-Biomateriales,LFN51,Salmoss HAPS 1.0gr,85680,0,85680,Lifenet/Viaossea
-Biomateriales,LFN52,Salmoss HAPS 2.5gr,136850,0,136850,Lifenet/Viaossea
-Biomateriales,LFN53,Salmoss Xenoinjerto 0.2gr,36000,0,36000,Lifenet/Viaossea
-Biomateriales,LFN54,Salmoss Xenoinjerto 0.5gr,48000,0,48000,Lifenet/Viaossea
-Biomateriales,LFN55,Salmoss Xenoinjerto 1.0gr,73000,0,73000,Lifenet/Viaossea
-Biomateriales,LFN56,Salmoss Xenoinjerto 2.5gr,119000,0,119000,Lifenet/Viaossea
-Implantes,IL560,"Implante Lance",56000,0,56000,MIS
-Implantes,ISC740,"Implante Semi Cónico M4",74000,0,74000,MIS
-Implantes,IS820,"Implante Seven",82000,0,82000,MIS
-Implantes,ISX820,"Implante Seven XD",82000,0,82000,MIS
-Componentes,PTR313,"Pilar Titanio recto",31320,0,31320,MIS
-Componentes,PA313,"Pilar anatómico",31320,0,31320,MIS
-Componentes,PDB313,"Pilar de bola",31320,0,31320,MIS
-Componentes,PAD549,"Pilar angulado de bola",54900,0,54900,MIS
-Componentes,DMH243,"Double Metal Housing",24300,0,24300,MIS
-Componentes,OE720,"OT Equator",72000,0,72000,MIS
-Componentes,PTA396,"Pilar Titanio Angulado",39600,0,39600,MIS
-Componentes,PTR396,"Pilar Titanio Recto Estético",39600,0,39600,MIS
-Componentes,PDC189,"Pilar de Cicatrización",18900,0,18900,MIS
-Componentes,T243,"Transfer",24300,0,24300,MIS
-Componentes,UC225,"Ucla calcinable",22500,0,22500,MIS
-Componentes,U313,"Ucla Cromo-Cobalto",31320,0,31320,MIS
-Componentes,TB242,"Ti Base",24210,0,24210,MIS
-Componentes,CTB711,"Calcinable Ti Base",7110,0,7110,MIS
-Componentes,PP234,"Provisorio Plástico",23400,0,23400,MIS
-Componentes,PT324,"Provisorio Titanio",32400,0,32400,MIS
-Componentes,A131,"Análogo",13140,0,13140,MIS
-Componentes,AD225,"Análogo Digital",22500,0,22500,MIS
-Componentes,SP313,"Scan Post",31320,0,31320,MIS
-Componentes,EB247,"Ez Base",24750,0,24750,MIS
-Componentes,TP149,"Tornillo Protésico",14900,0,14900,MIS
-Componentes,PTR473,"Pilar Titanio recto",47300,0,47300,MIS
-Componentes,PTA775,"Pilar Titanio angulado",77500,0,77500,MIS
-Componentes,T316,"Transfer",31600,0,31600,MIS
-Componentes,CP278,"Cilindro plástico",27800,0,27800,MIS
-Componentes,A194,"Análogo",19400,0,19400,MIS
-Componentes,PTT341,"Pilar Temporal Titanio",34100,0,34100,MIS
-Componentes,TDC286,"Tapa de Cicatrización",28600,0,28600,MIS
-Componentes,AD250,"Análogo Digital",25000,0,25000,MIS
-Componentes,SP355,"Scan Post",35500,0,35500,MIS
-Componentes,CC273,"Cad Cam",27300,0,27300,MIS
-Componentes,TP162,"Tornillo Protésico",16200,0,16200,MIS
-Implantes,IC849,"Implante C1",84900,0,84900,MIS
-Implantes,IC849,"Implante C1B",84900,0,84900,MIS
-Implantes,IC849,"Implante C1XD",84900,0,84900,MIS
-Implantes,ICL789,"Implante Cónico Lance",78900,0,78900,MIS
-Componentes,PTR313,"Pilar Ti recto",31320,0,31320,MIS
-Componentes,TB269,"Ti Base",26910,0,26910,MIS
-Componentes,PTA396,"Pilar Ti angulado",39600,0,39600,MIS
-Componentes,PTE396,"Pilar Ti estético",39600,0,39600,MIS
-Componentes,PDC189,"Pilar de cicatrización",18900,0,18900,MIS
-Componentes,PDT324,"Provisorio de titanio",32400,0,32400,MIS
-Componentes,EB269,"Ez Base",26910,0,26910,MIS
-Componentes,AD225,"Análogo digital",22500,0,22500,MIS
-Componentes,TP149,"Tronillo Protesico",14900,0,14900,MIS
-Membranas,BRC1525,"Bone regeneration collagen membrane 15x25",92000,0,92000,MIS
-Membranas,BRC2030,"Bone regeneration collagen membrane 20x30",101000,0,101000,MIS
-Biomateriales,BS4BS01,"4bone synthetic bone graft 0.5cc",55000,0,55000,MIS
-Biomateriales,BS4BS1S,"4bone synthetic bone graft 1cc",79000,0,79000,MIS
-Biomateriales,NCR423005,"Mineralized cortical/cancellous particulate - jar de 0.5 cc",65000,0,65000,MIS
-Biomateriales,NCR423010,"Mineralized cortical/cancellous particulate - jar de 1 cc",89900,0,89900,MIS
-Membranas,NCR462012,"Matrix ND 1X2cm 1cm x 2 cm",108000,0,108000,MIS
-Membranas,NCR462014,"Matrix ND 1X4 cm 1cm x 4 cm",161000,0,161000,MIS
-Biomateriales,NCR423105,"Dental Fix Min Cort Particulate CRT",50900,0,50900,MIS
-Biomateriales,NCR423110,"Dental Fix Min Cort Particulate CRT",69500,0,69500,MIS
-Biomateriales,GENMIX075,"INJERTO OSEO BOVINO GENMIX 0,75 (925.S.0,75)",38900,0,38900,MIS
-Biomateriales,ORTHOG001,"Injerto Particulado 0.5 cc (946.G.25.0,5)",39500,0,39500,MIS
-Biomateriales,ORTHOG002,"Injerto Particulado 1 cc (946.G.50.1)",62900,0,62900,MIS
-Biomateriales,OXB0125,"OSSIX Bone OXB0125",60000,0,60000,MIS
-Biomateriales,OXB0250,"OSSIX Bone OXB0250",84000,0,84000,MIS
-Biomateriales,OXB0500,"OSSIX Bone OXB0500",107000,0,107000,MIS
-Membranas,OXP1525,"Ossix Plus OXP1525",60000,0,60000,MIS
-Membranas,OXP2530,"Ossix Plus OXP2530",84000,0,84000,MIS
-Membranas,OXP3040,"Ossix Plus OXP3040",107000,0,107000,MIS
-Membranas,OXV1012,"Ossix Volumax OXV1012",60000,0,60000,MIS
-Membranas,OXV1040,"Ossix Volumax OXV1040",102000,0,102000,MIS
-Membranas,OXV1525,"Ossix Volumax OXV1525",84000,0,84000,MIS
-Membranas,OXV2530,"Ossix Volumax OXV2530",107000,0,107000,MIS
+Implantes,IL560,Implante Lance,56000.0,0.0,56000.0,MIS
+Implantes,ISC740,Implante Semi Cónico M4,74000.0,0.0,74000.0,MIS
+Implantes,IS820,Implante Seven,82000.0,0.0,82000.0,MIS
+Implantes,ISX820,Implante Seven XD,82000.0,0.0,82000.0,MIS
+Componentes,PTR313,Pilar Titanio recto,31320.0,0.0,31320.0,MIS
+Componentes,PA313,Pilar anatómico,31320.0,0.0,31320.0,MIS
+Componentes,PDB313,Pilar de bola,31320.0,0.0,31320.0,MIS
+Componentes,PAD549,Pilar angulado de bola,54900.0,0.0,54900.0,MIS
+Componentes,DMH243,Double Metal Housing,24300.0,0.0,24300.0,MIS
+Componentes,OE720,OT Equator,72000.0,0.0,72000.0,MIS
+Componentes,PTA396,Pilar Titanio Angulado,39600.0,0.0,39600.0,MIS
+Componentes,PTR396,Pilar Titanio Recto Estético,39600.0,0.0,39600.0,MIS
+Componentes,PDC189,Pilar de Cicatrización,18900.0,0.0,18900.0,MIS
+Componentes,T243,Transfer,24300.0,0.0,24300.0,MIS
+Componentes,UC225,Ucla calcinable,22500.0,0.0,22500.0,MIS
+Componentes,U313,Ucla Cromo-Cobalto,31320.0,0.0,31320.0,MIS
+Componentes,TB242,Ti Base,24210.0,0.0,24210.0,MIS
+Componentes,CTB711,Calcinable Ti Base,7110.0,0.0,7110.0,MIS
+Componentes,PP234,Provisorio Plástico,23400.0,0.0,23400.0,MIS
+Componentes,PT324,Provisorio Titanio,32400.0,0.0,32400.0,MIS
+Componentes,A131,Análogo,13140.0,0.0,13140.0,MIS
+Componentes,AD225,Análogo Digital,22500.0,0.0,22500.0,MIS
+Componentes,SP313,Scan Post,31320.0,0.0,31320.0,MIS
+Componentes,EB247,Ez Base,24750.0,0.0,24750.0,MIS
+Componentes,TP149,Tornillo Protésico,14900.0,0.0,14900.0,MIS
+Componentes,PTR473,Pilar Titanio recto,47300.0,0.0,47300.0,MIS
+Componentes,PTA775,Pilar Titanio angulado,77500.0,0.0,77500.0,MIS
+Componentes,T316,Transfer,31600.0,0.0,31600.0,MIS
+Componentes,CP278,Cilindro plástico,27800.0,0.0,27800.0,MIS
+Componentes,A194,Análogo,19400.0,0.0,19400.0,MIS
+Componentes,PTT341,Pilar Temporal Titanio,34100.0,0.0,34100.0,MIS
+Componentes,TDC286,Tapa de Cicatrización,28600.0,0.0,28600.0,MIS
+Componentes,AD250,Análogo Digital,25000.0,0.0,25000.0,MIS
+Componentes,SP355,Scan Post,35500.0,0.0,35500.0,MIS
+Componentes,CC273,Cad Cam,27300.0,0.0,27300.0,MIS
+Componentes,TP162,Tornillo Protésico,16200.0,0.0,16200.0,MIS
+Implantes,IC849,Implante C1,84900.0,0.0,84900.0,MIS
+Implantes,IC849,Implante C1B,84900.0,0.0,84900.0,MIS
+Implantes,IC849,Implante C1XD,84900.0,0.0,84900.0,MIS
+Implantes,ICL789,Implante Cónico Lance,78900.0,0.0,78900.0,MIS
+Componentes,PTR313,Pilar Ti recto,31320.0,0.0,31320.0,MIS
+Componentes,TB269,Ti Base,26910.0,0.0,26910.0,MIS
+Componentes,PTA396,Pilar Ti angulado,39600.0,0.0,39600.0,MIS
+Componentes,PTE396,Pilar Ti estético,39600.0,0.0,39600.0,MIS
+Componentes,PDC189,Pilar de cicatrización,18900.0,0.0,18900.0,MIS
+Componentes,PDT324,Provisorio de titanio,32400.0,0.0,32400.0,MIS
+Componentes,EB269,Ez Base,26910.0,0.0,26910.0,MIS
+Componentes,AD225,Análogo digital,22500.0,0.0,22500.0,MIS
+Componentes,TP149,Tronillo Protesico,14900.0,0.0,14900.0,MIS
+Membranas,BRC1525,Bone regeneration collagen membrane 15x25,92000.0,0.0,92000.0,MIS
+Membranas,BRC2030,Bone regeneration collagen membrane 20x30,101000.0,0.0,101000.0,MIS
+Biomateriales,BS4BS01,4bone synthetic bone graft 0.5cc,55000.0,0.0,55000.0,MIS
+Biomateriales,BS4BS1S,4bone synthetic bone graft 1cc,79000.0,0.0,79000.0,MIS
+Biomateriales,NCR423005,Mineralized cortical/cancellous particulate - jar de 0.5 cc,65000.0,0.0,65000.0,MIS
+Biomateriales,NCR423010,Mineralized cortical/cancellous particulate - jar de 1 cc,89900.0,0.0,89900.0,MIS
+Membranas,NCR462012,Matrix ND 1X2cm 1cm x 2 cm,108000.0,0.0,108000.0,MIS
+Membranas,NCR462014,Matrix ND 1X4 cm 1cm x 4 cm,161000.0,0.0,161000.0,MIS
+Biomateriales,NCR423105,Dental Fix Min Cort Particulate CRT,50900.0,0.0,50900.0,MIS
+Biomateriales,NCR423110,Dental Fix Min Cort Particulate CRT,69500.0,0.0,69500.0,MIS
+Biomateriales,GENMIX075,"INJERTO OSEO BOVINO GENMIX 0,75 (925.S.0,75)",38900.0,0.0,38900.0,MIS
+Biomateriales,ORTHOG001,"Injerto Particulado 0.5 cc (946.G.25.0,5)",39500.0,0.0,39500.0,MIS
+Biomateriales,ORTHOG002,"Injerto Particulado 1 cc (946.G.50.1)",62900.0,0.0,62900.0,MIS
+Biomateriales,OXB0125,OSSIX Bone OXB0125,60000.0,0.0,60000.0,MIS
+Biomateriales,OXB0250,OSSIX Bone OXB0250,84000.0,0.0,84000.0,MIS
+Biomateriales,OXB0500,OSSIX Bone OXB0500,107000.0,0.0,107000.0,MIS
+Membranas,OXP1525,Ossix Plus OXP1525,60000.0,0.0,60000.0,MIS
+Membranas,OXP2530,Ossix Plus OXP2530,84000.0,0.0,84000.0,MIS
+Membranas,OXP3040,Ossix Plus OXP3040,107000.0,0.0,107000.0,MIS
+Membranas,OXV1012,Ossix Volumax OXV1012,60000.0,0.0,60000.0,MIS
+Membranas,OXV1040,Ossix Volumax OXV1040,102000.0,0.0,102000.0,MIS
+Membranas,OXV1525,Ossix Volumax OXV1525,84000.0,0.0,84000.0,MIS
+Membranas,OXV2530,Ossix Volumax OXV2530,107000.0,0.0,107000.0,MIS
+Procedimiento,OTROS,Otros,0.0,0.0,0.0,USS Valdivia
+Scanbody,SB001,Scanbody Neobiotech,0.0,0.0,35000.0,Neobiotech
+Scanbody,SB002,Scanbody Neodent,0.0,0.0,35000.0,Neodent
+Docencia Asistencial Postgrado,POS_AEP236,Acceso endodóntico por urgencia,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ADT650,Acondicionamiento de tejidos,6500.0,0.0,6500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ADS142,Aplicación de sellante,14200.0,0.0,14200.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_BPA419,Blanqueamiento por arcada,41900.0,0.0,41900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_BQP295,Blanqueamiento químico postendodóntico por sesión,29500.0,0.0,29500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_BDH236,Biopsia de hueso,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_BDM182,Biopsia de mucosa,18200.0,0.0,18200.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_BDN750,Botón de nance / barra lingual / barra palatina,7500.0,0.0,7500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDT236,Cambio de tornillos protésicos,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CD295,Carilla directa,29500.0,0.0,29500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CI177,Carilla indirecta,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CAY834,Cirugía apical y pararradicular con o sin relleno a retro,83400.0,0.0,83400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CPP192,Colgajo periodontal por grupo,19200.0,0.0,19200.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDI100,Conexión de implantes,10000.0,0.0,10000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDP350,Conexión de prótesis total provisoria sobre 4 hasta 6 implantes,35000.0,0.0,35000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDM346,Confección de muñón de resina,34600.0,0.0,34600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDU236,Consulta de urgencia por dolor,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_C1,Control,1.0,0.0,1.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDH1,Control de higiene,1.0,0.0,1.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDI1,Control de implantes,1.0,0.0,1.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDP580,Control de procedimiento estético,5800.0,0.0,5800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDP1,Control de prótesis,1.0,0.0,1.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CA119,Corona acrílico,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CC354,Corona ceromero,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDP354,Corona de porcelana sobre metal,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDS331,Corona de sustitución,33100.0,0.0,33100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CIP354,Corona insercion pfp libre de metal,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CIP354,Corona inserción pfp porcelana sobre metal,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CIP354,Corona intermediaria pfp libre de metal,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CIP354,Corona intermediaria pfp porcelana sobre metal,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CLD416,Corona libre de metal (disilicato),41600.0,0.0,41600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CLD416,Corona libre de metal (porcelana pura o solo zirconio),41600.0,0.0,41600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CPE471,Corona periférica en implante atornillada o cementada(hasta 2 en i unit),47100.0,0.0,47100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CPD590,Corona provisoria de acrilico sobre implantes (laboratorio),5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CPD590,Corona provisoria de acrílico o policarbonato (laboratorio),5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CPE471,Corona provisoria en implante inmediata a cx,47100.0,0.0,47100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CSI354,Corona sobre implantes atornillada/cementada (angulada-recta)zirconio,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CSI354,Corona sobre implantes cementada (disilicato),35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CT590,Corona temporal,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CT100,Coronas temporales implantes,10000.0,0.0,10000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CD119,Corrección de cicatriz,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDV248,Corrección de vestíbulo,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DRD343,Cx. de recuperación de tisc,34300.0,0.0,34300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DDP118,Derecho de pabellón cirugías de alta complejidad,118600.0,0.0,118600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DDP535,Derecho de pabellón cirugías de baja complejidad,53500.0,0.0,53500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DDP831,Derecho de pabellón cirugias de mediana complejidad,83100.0,0.0,83100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DDP154,Derecho de pabellon de cirugía múltiple,154100.0,0.0,154100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_D590,Desgaste selectivo (por sesión),5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_D236,Desinclusiones,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DDD177,Drenaje de absceso,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E236,Encerado,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EI354,Endodoncia incisivos,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EM471,Endodoncia molares,47100.0,0.0,47100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EP354,Endodoncia premolares,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDA248,Enucleación de adenoma,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDQ941,Enucleación de quiste o tumor simple,94100.0,0.0,94100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDQ941,Enucleación de quiste simple en tejido blando,94100.0,0.0,94100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EMC177,Espiga muñón colado bipartido o seccionado,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EMC177,Espiga muñón colado simple,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E354,Estampado,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ETC735,Evaluación tomográfica cbct (1 arcada),73500.0,0.0,73500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ETC943,Evaluación tomográfica cbct bimaxilar,94300.0,0.0,94300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDM248,Exéresis de material de osteosíntesis,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E119,Exodoncia,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EAC355,Exodoncia a colgajo o semi-incluida,35500.0,0.0,35500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDD177,Exodoncia diente retenido,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EI355,Exodoncia implante,35500.0,0.0,35500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EYT355,Exploración y taponaje,35500.0,0.0,35500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDM589,Extirpación de mucoceles,58900.0,0.0,58900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_F589,Fenestraciones,58900.0,0.0,58900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_FI590,Fijacion intermedia,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_F119,Fijación,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_FDL295,Frenectomía de labio,29500.0,0.0,29500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_FS343,Frenectomia simple,34300.0,0.0,34300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_GU221,Gingivectomia unitaria,22100.0,0.0,22100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_I317,Incrustaciones (estéticas/metálica),31700.0,0.0,31700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IPA469,Inserción para puente adhesivo maryland,46900.0,0.0,46900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDB500,Instalación de broche (o'ring),50000.0,0.0,50000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDB500,Instalación de broche (o'ring) con cambio de teflón en barra,50000.0,0.0,50000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDB238,Instalación de brackets,23800.0,0.0,23800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDI119,Instalación de implante 2 y 3 ( c/u ),119500.0,0.0,119500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDI119,Instalación de implante 4 y 5 (c/u),119500.0,0.0,119500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDI119,Instalación de implante i. unitario,119500.0,0.0,119500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDI119,Instalación de implante unitario,119500.0,0.0,119500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IPD119,Instalación placa de bruxismo / protector bucal,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IPA469,Intermediario para puente adhesivo maryland,46900.0,0.0,46900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_MDR354,Manejo de recesiones,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_MDH166,Mantenimiento de hueso y tejido blando,16600.0,0.0,16600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_MDL119,Modelos de lab,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_OA248,Ortodoncia aparatología removible,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ODT248,Ortodoncia de tracción para diente incluido,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PEY236,Pabellon endodoncia y ortodoncia,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PEI823,Pabellón e insumos injertos óseos / levantamiento seno max,82300.0,0.0,82300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PP590,Perno preformado,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PMS248,Pilar muñón sobre implantes,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PMZ248,Pilar muñon zirconio sobre implantes,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PMZ248,Pilar muñón zirconio sobre implantes,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDA354,Placa de asa continua,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDS119,Placa de superificie oclusión relajante o plano de alivio oclusal,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDV834,Profundización de vestibulo,83400.0,0.0,83400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDC143,Pulpectomía de caninos,14300.0,0.0,14300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDI143,Pulpectomía de incisivos,14300.0,0.0,14300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDM143,Pulpectomía de molares,14300.0,0.0,14300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PMA480,Prótesis maxilofacial alta complejidad,48000.0,0.0,48000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PBM365,Prótesis bmf mediana complejidad,36500.0,0.0,36500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PBC239,Prótesis bmf baja complejidad,23900.0,0.0,23900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PC152,Prótesis combinadas,15200.0,0.0,15200.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PI119,Prótesis inmediatas,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PPM605,Prótesis parcial mandibular o maxilar removible,60500.0,0.0,60500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PTA117,Prótesis tipo admodum (con barra de titanio) hasta 4 implantes,117600.0,0.0,117600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PTA117,Prótesis tipo admodum(con barra de titanio) hasta 6 implantes,117600.0,0.0,117600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PTI181,"Prótesis total implantosoportada tipo bridge de zirconio (hasta 6 conex, sup",181500.0,0.0,181500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PTM664,Prótesis total maxilar o mandibular (de acrilico) ,66400.0,0.0,66400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDO119,Recambio de o'ring o clip barra,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDC236,Reconstruccion de composite en dientes permanentes,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDR166,Reconstruccion de resina pre-endodoncica,16600.0,0.0,16600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RD354,Rehabilitación de 1 implante,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDD119,Reparacion de diente u/o gancho (en base de acrilico),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDF119,Reparacion de fractura ( base de acrilico),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDH590,Reparación de hueso y diente de pp y pt,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RSE119,Retención sobre espiga colada u opaca sobre pilar implante,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDA248,Retiros de aparatos e instalación contención por arcada,24800.0,0.0,24800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_SDC834,Sistemas de conexión cónica y aditamentos de precisión (atahes),83400.0,0.0,83400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_S0119,Soldaduras (01 a 02 puntos),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TCA238,Tratamiento con aparato removible con o sin tornillo,23800.0,0.0,23800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDD317,Tratamiento de disfunción temporomandibular miogénica aguda o crónica,31700.0,0.0,31700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDM589,Tratamiento de ortodoncia (mensualidad),58900.0,0.0,58900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_VDL119,Vestibuloplastia de labio,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_VDM143,Vestibuloplastia de mejilla,14300.0,0.0,14300.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_BDM300,Biopsia de mucosa,0.0,30000.0,30000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CIP836,Carilla indirecta porcelana,0.0,83600.0,83600.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CDP540,Corona de porcelana sobre metal,0.0,54000.0,54000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CIP682,Corona insercion pfp libre de metal,0.0,68200.0,68200.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CIP675,Corona inserción pfp porcelana sobre metal,0.0,67500.0,67500.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CIP682,Corona intermediaria pfp libre de metal,0.0,68200.0,68200.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CIP500,Corona intermediaria pfp porcelana sobre metal,0.0,50000.0,50000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CLD750,Corona libre de metal (disilicato),0.0,75000.0,75000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CLD836,Corona libre de metal (porcelana pura o solo zirconio o feldespato),0.0,83600.0,83600.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_CPD110,Corona provisoria de acrílico o policarbonato (laboratorio),0.0,11000.0,11000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_EDP770,Encerado diagnóstico por diente,0.0,7700.0,7700.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_EMC363,Espiga muñón colado bipartido o seccionado,0.0,36300.0,36300.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_EMC363,Espiga muñón colado simple,0.0,36300.0,36300.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_HC900,Hombro cerámico,0.0,9000.0,9000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_IC770,Incrustación cerámica (inlay-onlay),0.0,77000.0,77000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_IC367,Incrustación cerómero (inlay onlay ) o carilla indirecta,0.0,36700.0,36700.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_IM308,Incrustación metálica (inlay),0.0,30800.0,30800.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_MMD150,Mantenedor de espacio removible,0.0,15000.0,15000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_M150,Mantenedor espacio banda o corona ansa,0.0,15000.0,15000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PA310,Placa acrilica para ejercicios.,0.0,31000.0,31000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PDB310,Placa de bruxismo (superficie oclusión relajante o plano de alivio oclusal ),0.0,31000.0,31000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_P310,Protector bucal,0.0,31000.0,31000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PBM160,Prótesis b. metalica bilateral libre extremidad de 3 a 5 d.,0.0,160000.0,160000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PBM185,Prótesis b. metalica bilateral libre extremidad de 6 a 13 d.,0.0,185000.0,185000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PBM160,Prótesis b. metalica bilateral unidentada a bidentada libre,0.0,160000.0,160000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PBM140,Prótesis base metalica unila a bilateral intercalar de 3 a 5d.,0.0,140000.0,140000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PBM140,Prótesis base metalica unilateral a bilateral intercalar hasta de 1 a 2 d,0.0,140000.0,140000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PBM150,Prótesis base metalica unilateral unidentada o bidentada libre ext,0.0,150000.0,150000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PPM650,Prótesis parcial maxilar o mandíbaular acrilico de transicion con retenedores labra,0.0,65000.0,65000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PPM650,Prótesis parcial maxilar o mandibular de acrílico con retenedores labrados 1 a 2 di,0.0,65000.0,65000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PPM700,Prótesis parcial maxilar o mandibular de acrílico con retenedores labrados 3 a 5 di,0.0,70000.0,70000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PPM780,Prótesis parcial maxilar o mandibular de acrílico con retenedores labrados de 6  a,0.0,78000.0,78000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PTM660,Prótesis total maxilar o mandibular sobre base acrílica con 1 placa de altura o ro,0.0,66000.0,66000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_PT154,Protesis transicional,0.0,15400.0,15400.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_RD180,Rebase directo con resinas en clínica,0.0,18000.0,18000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_R180,Rebase indirecto,0.0,18000.0,18000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_RR180,Reparación remiendo o simple (no incluye retenedores) sin impresión,0.0,18000.0,18000.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_RR275,Reparación remiendo o simple con retenedor ( incluye retedor colado) sin impre,0.0,27500.0,27500.0,USS Valdivia
+Laboratorio Dental (Ambos),LAB_RSI275,Reparación sin impresión,0.0,27500.0,27500.0,USS Valdivia
+Laboratorio Dental (Pregrado),LAB_RCI275,Reparación con impresión,0.0,27500.0,27500.0,USS Valdivia
+Laboratorio Dental (Pregrado),LAB_RSI275,Reparación sin impresión,0.0,27500.0,27500.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_AC400,Activador (clase ii-clase iii) pendulum/biona,0.0,40000.0,40000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_ADP494,Anclaje de precisión sobre implantes,0.0,49400.0,49400.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_BDN250,Botón de nance / barra lingual / barra palatina,0.0,25000.0,25000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_CC399,Corona cerómero,0.0,39900.0,39900.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_CDS605,Corona de sustitución,0.0,60500.0,60500.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_CSI682,Corona sobre implantes atornillada/cementada (angulada-recta) zirconio,0.0,68200.0,68200.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_CSI682,Corona sobre implantes cementada (disilicato),0.0,68200.0,68200.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_CTS110,Corona temporal sobre implantes,0.0,11000.0,11000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_DV500,Disyuntor / verdon,0.0,50000.0,50000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_E715,Endocrown,0.0,71500.0,71500.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_E200,Estampado,0.0,20000.0,20000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_FPO150,Fresado palatino o rielera proximal (c/u),0.0,15000.0,15000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_IPP137,Inserción para puente adhesivo maryland,0.0,13700.0,13700.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_IDB500,Instalación de broche (oring),0.0,50000.0,50000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_IPP420,Intermediario para puente adhesivo maryland,0.0,42000.0,42000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PMS700,Pilar muñón sobre implantes,0.0,70000.0,70000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PDA350,Placa de asa continua,0.0,35000.0,35000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PDS400,Placa de schwarz / placa de hawley,0.0,40000.0,40000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PO355,Plano orgánico,0.0,35500.0,35500.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PTB605,Prótesis tipo admodum(con barra de titanio)hasta 4 implantes,0.0,605000.0,605000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PTB605,Prótesis tipo admodum(con barra de titanio)hasta 6 implantes,0.0,605000.0,605000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PTI790,Prótesis total implantosoportada tipo admodum (barra+terminacion) hasta 6 conexi,0.0,790000.0,790000.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PPP181,Puente pfp porcelana sobre metal (2 inserciones y 1 intermediario),0.0,181500.0,181500.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_PTI790,"Prótesis total implantosoportada tipo bridge de zirconio (hasta 6 conex, sup o)",0.0,790000.0,790000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ADL119,Acondicionamiento de local,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_B0119,Biopulpectomía (01 cdtos),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_B0177,Biopulpectomía (03 o mas cdtos),17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDL119,Cirugía de labio (fibroma),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CPE236,Consultas por especialidades,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDC179,Control de caries y profilaxis fluoruro de plata por sesión,17900.0,0.0,17900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CAU295,Corona acero unitaria,29500.0,0.0,29500.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CDU119,Confección de un nuevo elemento (retención/estabilidad en aparato removible o,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_DDU119,Descementación de un aparato fijo y limpieza de resto,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EIT119,Endodoncia instrumentación total unicanal,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EAP834,Enucleación apical pd.,83400.0,0.0,83400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E0119,Exodoncia 01 diente en niño bajo anestesia gral.,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E0177,Exodoncia 02 o 03 dientes en niño b/ anes.gral.,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E0236,Exodoncia 04 o mas dientes b/ anest. gral.,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDT119,Exodoncia de temporales,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDM412,Exodoncia de terceros molares 1-2 en niño b/ane. gral.,41200.0,0.0,41200.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDM530,Exodoncia de terceros molares 3-4 b/anest. gral,53000.0,0.0,53000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_E0177,Exodoncia ó germenectomía a colgajo,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EUD119,Extirpación un diente supernumerario en niño b/anes. gral,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_EDD177,Extirpación dos dientes supernumerarios en niño b/ anes.gral.,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_F354,Fundiciones,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_G590,Grabado,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_IDP119,Instalación de pernos radiculares para la cementación de puentes (o coronas),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_LA238,Logopedia articulación,23800.0,0.0,23800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_LDF238,Logopedia deglución - fonación,23800.0,0.0,23800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_OAM590,Obturaciones amalgama metálica por superficie.,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ODC307,Obturaciones de composite hasta tres superficies b/ anes. gral,30700.0,0.0,30700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ODC388,Obturaciones de composite mas de tres sup. b/anes.gral.,38800.0,0.0,38800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ODI119,Obturaciones de incisivo ó de caninos b/anes. gral,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_OED471,Onda exodoncicas de pre y post extraccion.,47100.0,0.0,47100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ODC307,Ortodoncia diagnostico ce,30700.0,0.0,30700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PC236,Planificación completa,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDS590,Pulpotomía de su indicación a niños b/anes.gral,5900.0,0.0,5900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_PDT166,Pulpotomía de temporales,16600.0,0.0,16600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDC119,Retiro de coronas antiguas,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDE119,Retiro de espiga muñón,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDA500,Retratamiento diente anterior,50000.0,0.0,50000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RM720,Retratamiento molar,72000.0,0.0,72000.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RP589,Retratamiento premolar,58900.0,0.0,58900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_SRS236,Soporte radicular (sochapa),23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_S0119,Sutura 01 cuadrante extraoral y/ó intraoral en niño b/ anest. gral,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_S0177,Sutura 02 cuadrante extraoral y/ó intraoral en niño b/ anest. gral.,17700.0,0.0,17700.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TPD286,Terapia periodontal de mantencion,28600.0,0.0,28600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TRD179,Terapia remineralizadora de barniz flúor (máximo 4 aplicaciones),17900.0,0.0,17900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDM580,Toma de muestra de sangre,5800.0,0.0,5800.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDM119,Toma de muestra prf/i-prf,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TU514,Tracción u ortodoncia,51400.0,0.0,51400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TPC119,Tratamiento protésico de caries incipientes pd (1 cd),11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TPD143,Tratamiento pulpar de dientes primarios vitales y no vitales,14300.0,0.0,14300.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDL119,Radiografías bite wing de diagnóstico para levantamiento,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RRA119,Radiografías retro alveolares,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RRO119,Radiografías retro oclusales,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDP236,Tratamiento de periodontitis estadio i/ii global,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDP354,Tratamiento de periodontitis estadio iii/iv global,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TDP236,Tratamiento de periodontitis estadio iv - avanzado por cuadrante,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_UDL119,Urgencias del levantamiento de piso de seno maxilar,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_R0236,Reevaluación,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_TEA471,Tratamiento de endodoncia dientes anteriores,47100.0,0.0,47100.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_P0236,Pulpotomías,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDC119,Restauraciones de composite 1 superficie en dientes,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDC236,Restauraciones de composite 2 superficie en dientes,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_RDC354,Restauraciones de composite 3 superficie en dientes,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_MUM354,Mock up maxilar inferior,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_MUM354,Mock up maxilar superior,35400.0,0.0,35400.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_CD119,Compostura de,11900.0,0.0,11900.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_P0236,Protectores,23600.0,0.0,23600.0,USS Valdivia
+Docencia Asistencial Postgrado,POS_ADL119,Alargamiento de la,11900.0,0.0,11900.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_MUM177,Mock up maxilar inferior,0.0,17700.0,17700.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_MUM177,Mock up maxilar superior,0.0,17700.0,17700.0,USS Valdivia
+Laboratorio Dental (Postgrado),LAB_R0119,Rebasados,0.0,11900.0,11900.0,USS Valdivia

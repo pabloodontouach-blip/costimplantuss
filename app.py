@@ -26,22 +26,33 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# 2. CARGA DE DATOS Y ARCHIVOS
+# 2. CARGA DE DATOS Y ARCHIVOS (CON BLINDAJE ANTI-ERRORES)
 @st.cache_data
 def load_data():
     try:
-        data = pd.read_csv('base_datos_costos_uss_valdivia.csv', encoding='utf-8-sig')
-        data.columns = ['Categoría', 'Código', 'Descripción', 'Precio Clínica', 'Lab', 'Precio Total', 'Proveedor']
-        data['Proveedor'] = data['Proveedor'].astype(str).str.strip()
-        data['Categoría'] = data['Categoría'].astype(str).str.strip()
-        return data
+        # sep=None y engine='python' permite reparar automáticamente si el CSV se guardó mal (ej. con punto y coma)
+        data = pd.read_csv('base_datos_costos_uss_valdivia.csv', sep=None, engine='python', encoding='utf-8-sig')
+        
+        # Verificar que el archivo tenga al menos las 7 columnas necesarias
+        if len(data.columns) >= 7:
+            data = data.iloc[:, :7]
+            data.columns = ['Categoría', 'Código', 'Descripción', 'Precio Clínica', 'Lab', 'Precio Total', 'Proveedor']
+            data['Proveedor'] = data['Proveedor'].astype(str).str.strip()
+            data['Categoría'] = data['Categoría'].astype(str).str.strip()
+            return data
+        else:
+            return pd.DataFrame()
     except Exception as e:
-        st.error(f"Error al cargar el archivo CSV: {e}")
         return pd.DataFrame()
 
 df = load_data()
 HISTORIAL_FILE = 'historial_pacientes.csv'
 PLANTILLAS_FILE = 'plantillas.json'
+
+# --- ALERTA DE ERROR SI EL CSV ESTÁ ROTO ---
+if df.empty:
+    st.error("🚨 Error Crítico: La base de datos CSV está dañada o tiene un error de formato. Revisa el archivo 'base_datos_costos_uss_valdivia.csv' con el Bloc de Notas y asegúrate de no haber pegado símbolos extraños.")
+    st.stop()
 
 def guardar_en_historial(datos):
     if not os.path.isfile(HISTORIAL_FILE):
@@ -64,7 +75,7 @@ def guardar_plantilla(nombre, carrito):
     with open(PLANTILLAS_FILE, 'w', encoding='utf-8') as f:
         json.dump(plantillas, f, ensure_ascii=False, indent=4)
 
-# FUNCIÓN DE LIMPIEZA (CALLBACK)
+# FUNCIÓN DE LIMPIEZA (CALLBACK PARA EL BOTÓN DE REINICIAR)
 def limpiar_todo():
     st.session_state.carrito = []
     st.session_state.paciente_n = ""
@@ -163,7 +174,7 @@ def generar_pdf(resumen, t_total, paciente, rut, doctor, obs):
     pdf.cell(150, 10, "GRAN TOTAL ESTIMADO:", 1, 0, 'R')
     pdf.cell(40, 10, f"${t_total:,.0f}", 1, 1, 'R', True)
 
-    # Nota Legal (ACTUALIZADA)
+    # Nota Legal
     pdf.ln(8)
     pdf.set_fill_color(240, 240, 240)
     pdf.set_font("Arial", 'B', 10)
